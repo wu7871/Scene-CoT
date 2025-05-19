@@ -1,150 +1,323 @@
 ## 1. Requirement Analysis
-The user envisions a contemporary living room characterized by a modular sectional sofa and a sleek TV stand, emphasizing a modern aesthetic. The room measures 5.0 meters by 5.0 meters with a height of 3.0 meters, providing ample space for additional elements such as armchairs, a coffee table, and decorative items. The user prefers a layout that balances comfort and style, with the sectional sofa against the south wall and the TV stand on the north wall, ensuring optimal viewing angles and maintaining an open and inviting atmosphere.
+The user envisions a contemporary living room characterized by a modular sectional sofa and a sleek TV stand. The room measures 5.0 meters by 5.0 meters with a ceiling height of 3.0 meters. The user emphasizes a modern aesthetic with a focus on comfort and style, suggesting additional elements such as armchairs, a coffee table, decorative cushions, and wall art to enhance the room's functionality and visual appeal.
 
 ## 2. Area Decomposition
-The room is divided into several substructures to fulfill the user's requirements. The Sectional Sofa Area is designated along the south wall, serving as the primary seating zone. Adjacent to this is the TV Stand Area on the north wall, ensuring a direct line of sight for viewers seated on the sofa. The Open Middle Area is kept clear to facilitate easy movement and interaction between seating and entertainment zones. Additional areas include the Coffee Table Zone in front of the sectional sofa and the Decorative Area, which enhances the room's aesthetic with wall art and a rug.
+The room is divided into several substructures to meet the user's requirements. The Seating Area is defined by the placement of the sectional sofa and armchairs, creating a comfortable and inviting space. The Entertainment Area is centered around the TV stand, ensuring optimal viewing angles and accessibility. The Decorative Area includes wall art and a rug to add personality and warmth to the room. Lastly, the Lighting Area focuses on ambient lighting to enhance the room's atmosphere.
 
 ## 3. Object Recommendations
-For the Sectional Sofa Area, a modern modular sectional sofa in grey fabric is recommended, providing both comfort and a cohesive look. The TV Stand Area features a sleek black TV stand, complementing the sectional sofa and enhancing the room's modern aesthetic. A contemporary coffee table, also in grey, is suggested to be placed centrally in front of the sectional sofa, offering functionality and style. Wall art in a minimalist style adds a splash of color and texture to the Decorative Area, while a beige rug under the coffee table grounds the space, tying the seating arrangement together.
+For the Seating Area, a modern gray sectional sofa and two beige armchairs are recommended to provide comfort and maintain a cohesive look. The Entertainment Area features a black wooden TV stand and a contemporary TV to anchor the seating arrangement. In the Decorative Area, multicolor decorative cushions and abstract wall art are suggested to add vibrancy and personal touches. A contemporary silver rug is recommended to define the seating area and add warmth.
 
 ## 4. Scene Graph
-The sectional sofa, a central element of the living room, is placed against the south wall, facing the north wall. This placement maximizes space efficiency and provides a balanced view across the room, aligning with the user's preference for a contemporary style. The sofa's dimensions are 3.631 meters in length, 2.184 meters in width, and 0.926 meters in height, fitting well against the wall and leaving ample space for other furniture.
+The sectional sofa, a central piece in the living room, is placed against the north wall, facing the south wall. This placement ensures stability and allows for optimal viewing angles, making it a focal point in the room. The sofa's dimensions are 4.0 meters in length, 2.0 meters in width, and 1.0 meter in height. Its placement against the north wall leaves ample space for other furniture, adhering to design principles of balance and proportion.
 
-The TV stand is positioned against the north wall, facing the south wall, directly opposite the sectional sofa. This placement ensures optimal viewing angles and complements the modern aesthetic of the living room. The TV stand measures 1.5 meters in length, 0.5 meters in width, and 1.0 meter in height, allowing it to fit comfortably against the wall without spatial conflicts.
+Armchair_1 is positioned to the left of the sectional sofa, facing the east wall. With dimensions of 0.9 meters by 0.9 meters by 1.0 meter, it complements the sectional sofa without overcrowding the space. This placement maintains balance and provides additional seating, enhancing the room's functionality and aesthetic.
 
-The coffee table, measuring 1.464 meters in length, 0.887 meters in width, and 0.535 meters in height, is centrally placed in front of the sectional sofa. It is positioned under the TV stand when viewed from above, ensuring functionality and aesthetic appeal. This placement maintains balance and proportion, adhering to design principles and user preferences.
+Armchair_2 is placed to the right of the sectional sofa, facing the west wall. Measuring 0.9 meters by 0.9 meters by 1.0 meter, it creates symmetry with armchair_1, offering balanced seating arrangements. This placement ensures no spatial conflicts and enhances the room's contemporary style.
 
-Wall art, identified as wall_art_1, is placed on the east wall, facing the west wall. Measuring 1.2 meters in length, 0.05 meters in width, and 0.8 meters in height, the art piece adds visual interest without obstructing any existing furniture. Its placement on the east wall ensures it is visible from the seating area, enhancing the room's aesthetic.
+The TV stand is centrally located under the TV, placed against the south wall, facing the north wall. With dimensions of 1.5 meters by 0.6 meters by 1.0 meter, it provides a stable base for the TV and complements the sectional sofa's placement. This setup ensures optimal viewing angles from all seating areas, maintaining balance and proportion in the room.
+
+The TV, measuring 1.2 meters by 0.1 meters by 0.7 meters, is placed directly on the TV stand, facing the north wall. This placement ensures stability and optimal viewing angles, aligning with the user's vision for a sleek and modern living room.
+
+Decorative_pillow_1 and decorative_pillow_2 are placed on the sectional sofa, enhancing its comfort and aesthetic appeal. Each pillow measures 0.5 meters by 0.5 meters by 0.2 meters, fitting comfortably on the sofa without causing spatial conflicts. Their placement adds color contrast and maintains the room's contemporary style.
+
+Wall_art_1 is placed on the east wall, facing the west wall. With dimensions of 1.0 meter by 0.05 meters by 0.7 meters, it serves as a decorative element, adding visual interest without cluttering the space. This placement ensures balance and complements the existing layout.
+
+The rug, measuring 2.0 meters by 1.5 meters by 0.02 meters, is centrally placed under the sectional sofa and in front of armchairs 1 and 2. It defines the seating area and adds warmth and texture, enhancing the room's overall design and aesthetic.
 
 ## 5. Global Check
-A conflict arose with the placement of the rug, initially intended to be under the coffee table, as the coffee table's position was adjusted. The rug could not be placed under the coffee table due to spatial constraints. To resolve this, the rug was repositioned to be in front of the sectional sofa, maintaining its function and aesthetic contribution to the room. Additionally, the TV stand's width was insufficient to accommodate the TV, leading to the decision to delete the TV based on its lower priority compared to the sectional sofa and TV stand. This adjustment ensures the room remains functional and aesthetically pleasing, adhering to the user's vision for a contemporary living room.
+A conflict arose with the placement of armchair_3, initially intended to be behind the sectional sofa. The width of the sofa was insufficient to accommodate the armchair without causing spatial conflicts. To resolve this, armchair_3 was removed, prioritizing the user's preference for a contemporary living room with a modular sectional sofa and a sleek TV stand. This decision maintains the room's functionality and aesthetic balance.
 
 ## 6. Object Placement
 For sectional_sofa_1
 - calculation_steps:
-    1. reason: Calculate rotation difference with coffee_table_1
+    1. reason: Calculate rotation difference with armchair_2
         - calculation:
-            - Rotation of sectional_sofa_1: 0.0°
-            - Rotation of coffee_table_1: 0.0°
-            - Rotation difference: |0.0 - 0.0| = 0.0°
-        - conclusion: Using length dimension for directional constraint
-    2. reason: Calculate size constraint for 'in front' relation
+            - Rotation of sectional_sofa_1: 180.0°
+            - Rotation of armchair_2: 270.0°
+            - Rotation difference: |180.0 - 270.0| = 90.0°
+        - conclusion: Using width dimension for directional constraint
+    2. reason: Calculate size constraint for 'right of' relation
         - calculation:
-            - coffee_table_1 size: 1.464 (length)
-            - Cluster size (in front): max(0.0, 1.464) = 1.464
-        - conclusion: sectional_sofa_1 cluster size (in front): 1.464
-    3. reason: Calculate possible positions based on 'south_wall' constraint
+            - armchair_2 size: 0.9 (width)
+            - Cluster size (right of): max(0.0, 0.9) = 0.9
+        - conclusion: sectional_sofa_1 cluster size (right of): 0.9
+    3. reason: Calculate possible positions based on 'north_wall' constraint
         - calculation:
-            - sectional_sofa_1 size: length=3.631, width=2.184, height=0.926
-            - x_min = 2.5 - 5.0/2 + 3.631/2 = 1.8155
-            - x_max = 2.5 + 5.0/2 - 3.631/2 = 3.1845
-            - y_min = y_max = 1.092
-            - z_min = z_max = 0.463
-        - conclusion: Possible position: (1.8155, 3.1845, 1.092, 1.092, 0.463, 0.463)
+            - sectional_sofa_1 size: length=4.0, width=2.0, height=1.0
+            - x_min = 2.5 - 5.0/2 + 4.0/2 = 2.0
+            - x_max = 2.5 + 5.0/2 - 4.0/2 = 3.0
+            - y_min = 5.0 - 2.0/2 = 4.0
+            - y_max = 5.0 - 2.0/2 = 4.0
+            - z_min = z_max = 1.0/2 = 0.5
+        - conclusion: Possible position: (2.0, 3.0, 4.0, 4.0, 0.5, 0.5)
     4. reason: Adjust boundaries for valid placement
         - calculation:
-            - Adjusted cluster constraint: x(1.8155-3.1845), y(1.092-1.092)
-            - Final coordinates: x=2.7143, y=1.092, z=0.463
-        - conclusion: Final position: x: 2.7143, y: 1.092, z: 0.463
+            - Adjusted cluster constraint: x(2.0-3.0), y(4.0-4.0)
+            - Final coordinates: x=2.6293, y=4.0, z=0.5
+        - conclusion: Final position: x: 2.6293, y: 4.0, z: 0.5
     5. reason: Collision check with other objects
         - calculation:
             - No collision detected with other objects
         - conclusion: No collision detected
     6. reason: Final position calculation
         - calculation:
-            - Selected position within overlap: x=2.7143, y=1.092, z=0.463
-        - conclusion: Final position: x: 2.7143, y: 1.092, z: 0.463
+            - Final coordinates: x=2.6293, y=4.0, z=0.5
+        - conclusion: Final position: x: 2.6293, y: 4.0, z: 0.5
 
-For coffee_table_1
+For armchair_1
 - parent object: sectional_sofa_1
-- calculation_steps:
-    1. reason: Calculate rotation difference with rug_1
-        - calculation:
-            - Rotation of coffee_table_1: 0.0°
-            - Rotation of rug_1: 0.0°
-            - Rotation difference: |0.0 - 0.0| = 0.0°
-        - conclusion: Using length dimension for directional constraint
-    2. reason: Calculate size constraint for 'in front' relation
-        - calculation:
-            - rug_1 size: 2.0 (length)
-            - Cluster size (in front): max(0.0, 2.0) = 2.0
-        - conclusion: coffee_table_1 cluster size (in front): 2.0
-    3. reason: Calculate possible positions based on 'middle of the room' constraint
-        - calculation:
-            - coffee_table_1 size: length=1.464, width=0.887, height=0.535
-            - x_min = 2.5 - 5.0/2 + 1.464/2 = 0.732
-            - x_max = 2.5 + 5.0/2 - 1.464/2 = 4.268
-            - y_min = 2.5 - 5.0/2 + 0.887/2 = 0.4435
-            - y_max = 2.5 + 5.0/2 - 0.887/2 = 4.5565
-            - z_min = z_max = 0.2675
-        - conclusion: Possible position: (0.732, 4.268, 0.4435, 4.5565, 0.2675, 0.2675)
-    4. reason: Adjust boundaries for valid placement
-        - calculation:
-            - Adjusted cluster constraint: x(0.732-4.268), y(0.4435-4.5565)
-            - Final coordinates: x=3.5367, y=2.9835, z=0.2675
-        - conclusion: Final position: x: 3.5367, y: 2.9835, z: 0.2675
-    5. reason: Collision check with sectional_sofa_1
-        - calculation:
-            - No collision detected with sectional_sofa_1
-        - conclusion: No collision detected
-    6. reason: Final position calculation
-        - calculation:
-            - Selected position within overlap: x=3.5367, y=2.9835, z=0.2675
-        - conclusion: Final position: x: 3.5367, y: 2.9835, z: 0.2675
+    - calculation_steps:
+        1. reason: Calculate rotation difference with rug_1
+            - calculation:
+                - Rotation of armchair_1: 90.0°
+                - Rotation of rug_1: 0.0°
+                - Rotation difference: |90.0 - 0.0| = 90.0°
+            - conclusion: Using width dimension for directional constraint
+        2. reason: Calculate size constraint for 'left of' relation
+            - calculation:
+                - rug_1 size: 2.0 (width)
+                - Cluster size (left of): max(0.0, 2.0) = 2.0
+            - conclusion: armchair_1 cluster size (left of): 2.0
+        3. reason: Calculate possible positions based on 'middle of the room' constraint
+            - calculation:
+                - armchair_1 size: length=0.9, width=0.9, height=1.0
+                - x_min = 2.5 - 5.0/2 + 0.9/2 = 0.45
+                - x_max = 2.5 + 5.0/2 - 0.9/2 = 4.55
+                - y_min = 2.5 - 5.0/2 + 0.9/2 = 0.45
+                - y_max = 2.5 + 5.0/2 - 0.9/2 = 4.55
+                - z_min = z_max = 1.0/2 = 0.5
+            - conclusion: Possible position: (0.45, 4.55, 0.45, 4.55, 0.5, 0.5)
+        4. reason: Adjust boundaries for valid placement
+            - calculation:
+                - Adjusted cluster constraint: x(0.45-4.55), y(0.45-4.55)
+                - Final coordinates: x=4.5348, y=3.55, z=0.5
+            - conclusion: Final position: x: 4.5348, y: 3.55, z: 0.5
+        5. reason: Collision check with sectional_sofa_1
+            - calculation:
+                - No collision detected with sectional_sofa_1
+            - conclusion: No collision detected
+        6. reason: Final position calculation
+            - calculation:
+                - Final coordinates: x=4.5348, y=3.55, z=0.5
+            - conclusion: Final position: x: 4.5348, y: 3.55, z: 0.5
+
+For armchair_2
+- parent object: sectional_sofa_1
+    - calculation_steps:
+        1. reason: Calculate rotation difference with rug_1
+            - calculation:
+                - Rotation of armchair_2: 270.0°
+                - Rotation of rug_1: 0.0°
+                - Rotation difference: |270.0 - 0.0| = 270.0°
+            - conclusion: Using width dimension for directional constraint
+        2. reason: Calculate size constraint for 'right of' relation
+            - calculation:
+                - rug_1 size: 2.0 (width)
+                - Cluster size (right of): max(0.0, 2.0) = 2.0
+            - conclusion: armchair_2 cluster size (right of): 2.0
+        3. reason: Calculate possible positions based on 'middle of the room' constraint
+            - calculation:
+                - armchair_2 size: length=0.9, width=0.9, height=1.0
+                - x_min = 2.5 - 5.0/2 + 0.9/2 = 0.45
+                - x_max = 2.5 + 5.0/2 - 0.9/2 = 4.55
+                - y_min = 2.5 - 5.0/2 + 0.9/2 = 0.45
+                - y_max = 2.5 + 5.0/2 - 0.9/2 = 4.55
+                - z_min = z_max = 1.0/2 = 0.5
+            - conclusion: Possible position: (0.45, 4.55, 0.45, 4.55, 0.5, 0.5)
+        4. reason: Adjust boundaries for valid placement
+            - calculation:
+                - Adjusted cluster constraint: x(0.45-4.55), y(0.45-4.55)
+                - Final coordinates: x=0.7248, y=3.85, z=0.5
+            - conclusion: Final position: x: 0.7248, y: 3.85, z: 0.5
+        5. reason: Collision check with sectional_sofa_1
+            - calculation:
+                - No collision detected with sectional_sofa_1
+            - conclusion: No collision detected
+        6. reason: Final position calculation
+            - calculation:
+                - Final coordinates: x=0.7248, y=3.85, z=0.5
+            - conclusion: Final position: x: 0.7248, y: 3.85, z: 0.5
 
 For rug_1
-- parent object: coffee_table_1
-- calculation_steps:
-    1. reason: Calculate size constraint for 'under' relation
-        - calculation:
-            - rug_1 size: 2.0x1.5x0.01
-            - Cluster size (under): 0.0 (non-directional)
-        - conclusion: No directional constraint applied
-    2. reason: Calculate possible positions based on 'middle of the room' constraint
-        - calculation:
-            - x_min = x_max = 2.5
-            - y_min = y_max = 2.5
-            - z_min = z_max = 0.005
-        - conclusion: Possible position: (2.5, 2.5, 2.5, 2.5, 0.005, 0.005)
-    3. reason: Adjust for 'under coffee_table_1' constraint
-        - calculation:
-            - x_min = max(2.5, 3.5367 - 1.464/2 - 2.0/2) = 2.0
-            - y_min = max(2.5, 2.9835 - 0.887/2 - 1.5/2) = 1.8395
-        - conclusion: Final position: x: 2.3943, y: 2.2338, z: 0.005
-    4. reason: Collision check with coffee_table_1
-        - calculation:
-            - No collision detected with coffee_table_1
-        - conclusion: No collision detected
-    5. reason: Final position calculation
-        - calculation:
-            - Selected position within overlap: x=2.3943, y=2.2338, z=0.005
-        - conclusion: Final position: x: 2.3943, y: 2.2338, z: 0.005
+- parent object: armchair_1
+    - calculation_steps:
+        1. reason: Calculate size constraint for 'under' relation
+            - calculation:
+                - rug_1 size: 2.0x1.5x0.02
+                - Cluster size (under): 0.0 (non-directional)
+            - conclusion: No directional constraint applied
+        2. reason: Calculate possible positions based on 'middle of the room' constraint
+            - calculation:
+                - x_min = x_max = 2.5
+                - y_min = y_max = 2.5
+                - z_min = z_max = 0.01
+            - conclusion: Possible position: (2.5, 2.5, 2.5, 2.5, 0.01, 0.01)
+        3. reason: Adjust for 'under armchair_1' constraint
+            - calculation:
+                - x_min = max(2.5, 4.5348 - 0.9/2 - 2.0/2) = 3.0348
+                - y_min = max(2.5, 3.55 - 0.9/2 - 1.5/2) = 2.25
+            - conclusion: Final position: x: 3.0348, y: 2.25, z: 0.01
+        4. reason: Collision check with armchair_1
+            - calculation:
+                - No collision detected with armchair_1
+            - conclusion: No collision detected
+        5. reason: Final position calculation
+            - calculation:
+                - Final coordinates: x=3.0348, y=2.25, z=0.01
+            - conclusion: Final position: x: 3.0348, y: 2.25, z: 0.01
+
+For tv_stand_1
+- parent object: sectional_sofa_1
+    - calculation_steps:
+        1. reason: Calculate rotation difference with tv_1
+            - calculation:
+                - Rotation of tv_stand_1: 0.0°
+                - Rotation of tv_1: 0.0°
+                - Rotation difference: |0.0 - 0.0| = 0.0°
+            - conclusion: Using length dimension for directional constraint
+        2. reason: Calculate size constraint for 'in front' relation
+            - calculation:
+                - tv_1 size: 1.2 (length)
+                - Cluster size (in front): max(0.0, 1.2) = 1.2
+            - conclusion: tv_stand_1 cluster size (in front): 1.2
+        3. reason: Calculate possible positions based on 'south_wall' constraint
+            - calculation:
+                - tv_stand_1 size: length=1.5, width=0.6, height=1.0
+                - x_min = 2.5 - 5.0/2 + 1.5/2 = 0.75
+                - x_max = 2.5 + 5.0/2 - 1.5/2 = 4.25
+                - y_min = 0 + 0.6/2 = 0.3
+                - y_max = 0 + 0.6/2 = 0.3
+                - z_min = z_max = 1.0/2 = 0.5
+            - conclusion: Possible position: (0.75, 4.25, 0.3, 0.3, 0.5, 0.5)
+        4. reason: Adjust boundaries for valid placement
+            - calculation:
+                - Adjusted cluster constraint: x(0.75-4.25), y(0.3-0.3)
+                - Final coordinates: x=3.5829, y=0.3, z=0.5
+            - conclusion: Final position: x: 3.5829, y: 0.3, z: 0.5
+        5. reason: Collision check with sectional_sofa_1
+            - calculation:
+                - No collision detected with sectional_sofa_1
+            - conclusion: No collision detected
+        6. reason: Final position calculation
+            - calculation:
+                - Final coordinates: x=3.5829, y=0.3, z=0.5
+            - conclusion: Final position: x: 3.5829, y: 0.3, z: 0.5
+
+For tv_1
+- parent object: tv_stand_1
+    - calculation_steps:
+        1. reason: Calculate size constraint for 'on' relation
+            - calculation:
+                - tv_1 size: 1.2x0.1x0.7
+                - Cluster size (on): 0.0 (non-directional)
+            - conclusion: No directional constraint applied
+        2. reason: Calculate possible positions based on 'south_wall' constraint
+            - calculation:
+                - x_min = x_max = 2.5
+                - y_min = y_max = 0.05
+                - z_min = 1.5 - 3.0/2 + 0.7/2 = 0.35
+                - z_max = 1.5 + 3.0/2 - 0.7/2 = 2.65
+            - conclusion: Possible position: (2.5, 2.5, 0.05, 0.05, 0.35, 2.65)
+        3. reason: Adjust for 'on tv_stand_1' constraint
+            - calculation:
+                - x_min = max(2.5, 3.5829 - 1.5/2 - 1.2/2) = 2.3329
+                - y_min = max(0.05, 0.3 - 0.6/2 - 0.1/2) = -0.05
+            - conclusion: Final position: x: 2.3329, y: 0.05, z: 1.85
+        4. reason: Collision check with tv_stand_1
+            - calculation:
+                - No collision detected with tv_stand_1
+            - conclusion: No collision detected
+        5. reason: Final position calculation
+            - calculation:
+                - Final coordinates: x=2.3329, y=0.05, z=1.85
+            - conclusion: Final position: x: 2.3329, y: 0.05, z: 1.85
+
+For decorative_pillow_1
+- parent object: sectional_sofa_1
+    - calculation_steps:
+        1. reason: Calculate size constraint for 'on' relation
+            - calculation:
+                - decorative_pillow_1 size: 0.5x0.5x0.2
+                - Cluster size (on): 0.0 (non-directional)
+            - conclusion: No directional constraint applied
+        2. reason: Calculate possible positions based on 'sectional_sofa_1' constraint
+            - calculation:
+                - x_min = 2.6293 - 4.0/2 + 0.5/2 = 1.3793
+                - x_max = 2.6293 + 4.0/2 - 0.5/2 = 3.8793
+                - y_min = 4.0 - 2.0/2 + 0.5/2 = 3.25
+                - y_max = 4.0 + 2.0/2 - 0.5/2 = 4.75
+                - z_min = z_max = 1.0 + 1.0/2 + 0.2/2 = 1.1
+            - conclusion: Possible position: (1.3793, 3.8793, 3.25, 4.75, 1.1, 1.1)
+        3. reason: Adjust boundaries for valid placement
+            - calculation:
+                - Adjusted cluster constraint: x(1.3793-3.8793), y(3.25-4.75)
+                - Final coordinates: x=2.8842, y=4.6423, z=1.1
+            - conclusion: Final position: x: 2.8842, y: 4.6423, z: 1.1
+        4. reason: Collision check with sectional_sofa_1
+            - calculation:
+                - No collision detected with sectional_sofa_1
+            - conclusion: No collision detected
+        5. reason: Final position calculation
+            - calculation:
+                - Final coordinates: x=2.8842, y=4.6423, z=1.1
+            - conclusion: Final position: x: 2.8842, y: 4.6423, z: 1.1
+
+For decorative_pillow_2
+- parent object: sectional_sofa_1
+    - calculation_steps:
+        1. reason: Calculate size constraint for 'on' relation
+            - calculation:
+                - decorative_pillow_2 size: 0.5x0.5x0.2
+                - Cluster size (on): 0.0 (non-directional)
+            - conclusion: No directional constraint applied
+        2. reason: Calculate possible positions based on 'sectional_sofa_1' constraint
+            - calculation:
+                - x_min = 2.6293 - 4.0/2 + 0.5/2 = 1.3793
+                - x_max = 2.6293 + 4.0/2 - 0.5/2 = 3.8793
+                - y_min = 4.0 - 2.0/2 + 0.5/2 = 3.25
+                - y_max = 4.0 + 2.0/2 - 0.5/2 = 4.75
+                - z_min = z_max = 1.0 + 1.0/2 + 0.2/2 = 1.1
+            - conclusion: Possible position: (1.3793, 3.8793, 3.25, 4.75, 1.1, 1.1)
+        3. reason: Adjust boundaries for valid placement
+            - calculation:
+                - Adjusted cluster constraint: x(1.3793-3.8793), y(3.25-4.75)
+                - Final coordinates: x=3.1122, y=3.7158, z=1.1
+            - conclusion: Final position: x: 3.1122, y: 3.7158, z: 1.1
+        4. reason: Collision check with sectional_sofa_1
+            - calculation:
+                - No collision detected with sectional_sofa_1
+            - conclusion: No collision detected
+        5. reason: Final position calculation
+            - calculation:
+                - Final coordinates: x=3.1122, y=3.7158, z=1.1
+            - conclusion: Final position: x: 3.1122, y: 3.7158, z: 1.1
 
 For wall_art_1
 - calculation_steps:
-    1. reason: Calculate size constraint for 'east_wall' relation
+    1. reason: Calculate size constraint for 'on' relation
         - calculation:
-            - wall_art_1 size: 1.2x0.05x0.8
-            - Cluster size (east_wall): 0.0 (non-directional)
+            - wall_art_1 size: 1.0x0.05x0.7
+            - Cluster size (on): 0.0 (non-directional)
         - conclusion: No directional constraint applied
     2. reason: Calculate possible positions based on 'east_wall' constraint
         - calculation:
-            - x_min = x_max = 5.0
-            - y_min = 2.5 - 5.0/2 + 1.2/2 = 0.6
-            - y_max = 2.5 + 5.0/2 - 1.2/2 = 4.4
-            - z_min = 1.5 - 3.0/2 + 0.8/2 = 0.4
-            - z_max = 1.5 + 3.0/2 - 0.8/2 = 2.6
-        - conclusion: Possible position: (5.0, 5.0, 0.6, 4.4, 0.4, 2.6)
+            - x_min = 5.0 - 0.05/2 = 4.975
+            - x_max = 5.0 - 0.05/2 = 4.975
+            - y_min = 2.5 - 5.0/2 + 1.0/2 = 0.5
+            - y_max = 2.5 + 5.0/2 - 1.0/2 = 4.5
+            - z_min = 1.5 - 3.0/2 + 0.7/2 = 0.35
+            - z_max = 1.5 + 3.0/2 - 0.7/2 = 2.65
+        - conclusion: Possible position: (4.975, 4.975, 0.5, 4.5, 0.35, 2.65)
     3. reason: Adjust boundaries for valid placement
         - calculation:
-            - Adjusted cluster constraint: x(5.0-5.0), y(0.6-4.4)
-            - Final coordinates: x=5.0, y=3.378, z=2.075
-        - conclusion: Final position: x: 5.0, y: 3.378, z: 2.075
+            - Adjusted cluster constraint: x(4.975-4.975), y(0.5-4.5)
+            - Final coordinates: x=4.975, y=2.7518, z=1.9844
+        - conclusion: Final position: x: 4.975, y: 2.7518, z: 1.9844
     4. reason: Collision check with other objects
         - calculation:
             - No collision detected with other objects
         - conclusion: No collision detected
     5. reason: Final position calculation
         - calculation:
-            - Selected position within overlap: x=5.0, y=3.378, z=2.075
-        - conclusion: Final position: x: 5.0, y: 3.378, z: 2.075
+            - Final coordinates: x=4.975, y=2.7518, z=1.9844
+        - conclusion: Final position: x: 4.975, y: 2.7518, z: 1.9844

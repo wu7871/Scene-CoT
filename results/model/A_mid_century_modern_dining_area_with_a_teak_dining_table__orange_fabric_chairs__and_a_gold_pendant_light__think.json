@@ -1,34 +1,46 @@
 ## 1. Requirement Analysis
-The user envisions a dining area characterized by a cohesive and elegant aesthetic, with a focus on comfort and functionality. The room measures 5.0 meters by 5.0 meters with a ceiling height of 3.0 meters. Key elements include a teak dining table, orange fabric chairs, and a gold pendant light. The user desires a mid-century modern style, emphasizing a harmonious blend of materials and colors. The primary function of the room is to facilitate dining, with additional considerations for storage and decorative elements.
+The user envisions a mid-century modern dining area characterized by a teak dining table, orange fabric chairs, and a gold pendant light. The room measures 5.0 meters by 5.0 meters with a ceiling height of 3.0 meters. The design emphasizes a cohesive aesthetic with functional and decorative elements that enhance the dining experience. Key components include the central dining table, seating arrangement, and ambient lighting, with additional suggestions for a sideboard or buffet for storage, a rug under the dining table, and wall art to complement the decor.
 
 ## 2. Area Decomposition
-The room is divided into several substructures to meet the user's requirements. The central area is designated for the dining table, serving as the focal point of the room. Surrounding this is the Dining Chair Area, where fabric chairs are strategically placed to optimize both functionality and aesthetics. Above the dining table, the Lighting Area is defined by the pendant light, enhancing the ambiance and providing necessary illumination. Lastly, the Storage Area is identified by the buffet, positioned against the south wall to complement the dining setup.
+The room is divided into several substructures to fulfill the user's requirements. The Dining Table Area is the focal point, featuring the central teak dining table. Surrounding this is the Seating Area, which includes four orange fabric chairs arranged to face the table. The Lighting Area is defined by the placement of a gold pendant light directly above the dining table. Additional substructures include a Storage Area, represented by a sideboard against the east wall, and an Aesthetic Enhancement Area, featuring a rug under the dining table and wall art on the south wall.
 
 ## 3. Object Recommendations
-For the Dining Table Area, a teak dining table with dimensions of 2.0 meters by 1.0 meter by 0.75 meters is recommended. The Dining Chair Area features three orange fabric chairs, each measuring 0.869 meters by 0.818 meters by 1.018 meters, providing comfortable seating around the table. The Lighting Area includes a gold pendant light with dimensions of 0.5 meters by 0.5 meters by 1.0 meter, suspended from the ceiling to illuminate the dining area. Additionally, a buffet made of wood, measuring 1.5 meters by 0.6 meters by 1.8 meters, is recommended for the Storage Area to offer convenient storage and display options.
+For the Dining Table Area, a rustic-style teak dining table with dimensions of 2.0 meters by 1.0 meter by 0.75 meters is recommended. The Seating Area features four modern-style orange fabric chairs, each measuring 0.7 meters by 0.6 meters by 1.2 meters, designed to complement the dining table. The Lighting Area includes a modern gold pendant light with dimensions of 0.5 meters by 0.5 meters by 1.0 meter, providing ambient lighting. A contemporary beige rug measuring 2.5 meters by 1.5 meters is recommended for the Aesthetic Enhancement Area, placed under the dining table. Finally, a bohemian-style multicolor wall art piece with dimensions of 1.2 meters by 0.05 meters by 0.8 meters is suggested for the south wall to add visual interest.
 
 ## 4. Scene Graph
-The dining table, a central element of the room, is placed in the middle, facing the north wall. This central placement ensures balance and symmetry, allowing chairs to be evenly distributed around it. The table's dimensions (2.0m x 1.0m x 0.75m) fit well within the room, leaving ample space for movement and additional furniture. The fabric chairs are strategically placed to maintain balance and accessibility. Fabric_chair_1 is positioned behind the table, facing the north wall, while fabric_chair_2 is to the right of the table, facing the west wall. Fabric_chair_3 is placed to the left of the table, facing the east wall, ensuring a balanced and aesthetically pleasing arrangement.
+The dining table, a central element of the room, is placed in the middle to serve as the focal point, allowing chairs to be evenly distributed around it. Its dimensions (2.0m x 1.0m x 0.75m) fit well within the room, ensuring ample space for movement and interaction. This central placement adheres to design principles of balance and proportion, making the dining table accessible from all sides and enhancing the room's aesthetic.
 
-The pendant light is suspended directly above the dining table, providing optimal lighting and enhancing the room's aesthetic. Its placement on the ceiling ensures it does not interfere with floor space, aligning with the user's vision for a cohesive dining area. The buffet is placed against the south wall, facing the north wall, providing stability and easy access to stored items. This placement maintains balance and proportion, complementing the existing dining setup without obstructing movement or sightlines.
+Chair_1 is positioned to the right of the dining table, facing the west wall. This placement ensures it complements the dining setup while maintaining functionality and aesthetic appeal. The chair's dimensions (0.7m x 0.6m x 1.2m) allow it to fit comfortably around the table, creating a cohesive and inviting dining area.
+
+Chair_2 is placed to the left of the dining table, facing the east wall. This symmetrical arrangement enhances the aesthetic appeal and maintains balance, allowing diners seated here to have a view across the table. The chair's dimensions (0.7m x 0.6m x 1.2m) ensure it fits seamlessly into the setup.
+
+Chair_3 is positioned behind the dining table, facing the north wall. This placement creates a balanced and functional seating arrangement, with each chair facing a different direction. The chair's dimensions (0.7m x 0.6m x 1.2m) allow it to integrate seamlessly into the dining setup.
+
+Chair_4 is placed in front of the dining table, facing the south wall. This completes the symmetrical arrangement around the dining table, ensuring all chairs are equidistant and facing different directions. The chair's dimensions (0.7m x 0.6m x 1.2m) support this balanced and functional seating arrangement.
+
+The pendant light is centrally placed above the dining table, hanging from the ceiling. Its dimensions (0.5m x 0.5m x 1.0m) ensure it does not interfere with the floor space, providing optimal lighting coverage for the dining area. This placement highlights the dining table and enhances the room's ambiance.
+
+The rug is placed under the dining table, in the middle of the room. Its dimensions (2.5m x 1.5m) accommodate the dining table's size, enhancing the aesthetic appeal and comfort of the dining area. The rug adds warmth and cohesion to the space, aligning with the mid-century modern theme.
+
+Wall_art_1 is placed on the south wall, facing the north wall. Its dimensions (1.2m x 0.05m x 0.8m) ensure it does not overwhelm the space, adding a splash of color and visual interest without disrupting the room's flow. This placement complements the existing decor and enhances the room's aesthetic.
 
 ## 5. Global Check
-During the placement process, conflicts arose due to the limited space on the dining table, which could not accommodate all intended objects. Specifically, the table was too small to support both coasters and the centerpiece. To resolve this, the coaster set was removed, as it was deemed less critical compared to the centerpiece, which enhances the visual appeal and aligns with the user's preference for a cohesive dining area. This adjustment ensures the room remains functional and aesthetically pleasing without overcrowding the dining table.
+A conflict arose regarding the placement of the sideboard, initially intended to be adjacent to the dining table. The width of the dining table was insufficient to accommodate the sideboard to either side. To resolve this, the sideboard was removed, as it was deemed less critical compared to the dining table and chairs, which are central to the user's preference for a mid-century modern dining area. This decision maintained the room's functionality and aesthetic without compromising the user's vision.
 
 ## 6. Object Placement
 For dining_table_1
 - calculation_steps:
-    1. reason: Calculate rotation difference with fabric_chair_3
+    1. reason: Calculate rotation difference with chair_4
         - calculation:
             - Rotation of dining_table_1: 0.0°
-            - Rotation of fabric_chair_3: 90.0°
-            - Rotation difference: |0.0 - 90.0| = 90.0°
-        - conclusion: Using width dimension for directional constraint
-    2. reason: Calculate size constraint for 'left of' relation
+            - Rotation of chair_4: 180.0°
+            - Rotation difference: |0.0 - 180.0| = 180.0°
+        - conclusion: Using length dimension for directional constraint
+    2. reason: Calculate size constraint for 'in front' relation
         - calculation:
-            - fabric_chair_3 size: 0.818 (width)
-            - Cluster size (left of): max(0.0, 0.818) = 0.818
-        - conclusion: dining_table_1 cluster size (left of): 0.818
+            - chair_4 size: 0.7 (length)
+            - Cluster size (in front): max(0.0, 0.7) = 0.7
+        - conclusion: dining_table_1 cluster size (in front): 0.7
     3. reason: Calculate possible positions based on 'middle of the room' constraint
         - calculation:
             - dining_table_1 size: length=2.0, width=1.0, height=0.75
@@ -42,130 +54,168 @@ For dining_table_1
     4. reason: Adjust boundaries for valid placement
         - calculation:
             - Adjusted cluster constraint: x(1.0-4.0), y(0.5-4.5)
-            - Final coordinates: x=3.2631, y=2.3349, z=0.375
-        - conclusion: Final position: x: 3.2631, y: 2.3349, z: 0.375
+            - Final coordinates: x=1.9682, y=2.1714, z=0.375
+        - conclusion: Final position: x: 1.9682, y: 2.1714, z: 0.375
     5. reason: Collision check with other objects
         - calculation:
-            - No other objects in proximity
+            - No collision detected with other objects
         - conclusion: No collision detected
     6. reason: Final position calculation
         - calculation:
-            - Selected position within overlap: x=3.2631, y=2.3349, z=0.375
-        - conclusion: Final position: x: 3.2631, y: 2.3349, z: 0.375
+            - Selected position within overlap: x=1.9682, y=2.1714, z=0.375
+        - conclusion: Final position: x: 1.9682, y: 2.1714, z: 0.375
 
-For fabric_chair_1
+For chair_1
 - parent object: dining_table_1
 - calculation_steps:
     1. reason: Calculate rotation difference with dining_table_1
         - calculation:
-            - Rotation of fabric_chair_1: 0.0°
-            - Rotation of dining_table_1: 0.0°
-            - Rotation difference: |0.0 - 0.0| = 0.0°
-        - conclusion: Using length dimension for directional constraint
-    2. reason: Calculate size constraint for 'behind' relation
-        - calculation:
-            - dining_table_1 size: 2.0 (length)
-            - Cluster size (behind): max(0.0, 0.869) = 0.869
-        - conclusion: fabric_chair_1 cluster size (behind): 0.869
-    3. reason: Calculate possible positions based on 'middle of the room' constraint
-        - calculation:
-            - fabric_chair_1 size: length=0.869, width=0.818, height=1.018
-            - Room size: 5.0x5.0x3.0
-            - x_min = 2.5 - 5.0/2 + 0.869/2 = 0.4345
-            - x_max = 2.5 + 5.0/2 - 0.869/2 = 4.5655
-            - y_min = 2.5 - 5.0/2 + 0.818/2 = 0.409
-            - y_max = 2.5 + 5.0/2 - 0.818/2 = 4.591
-            - z_min = z_max = 1.018/2 = 0.509
-        - conclusion: Possible position: (0.4345, 4.5655, 0.409, 4.591, 0.509, 0.509)
-    4. reason: Adjust boundaries for valid placement
-        - calculation:
-            - Adjusted cluster constraint: x(0.4345-4.5655), y(0.409-4.591)
-            - Final coordinates: x=3.4435, y=1.1259, z=0.509
-        - conclusion: Final position: x: 3.4435, y: 1.1259, z: 0.509
-    5. reason: Collision check with other objects
-        - calculation:
-            - No other objects in proximity
-        - conclusion: No collision detected
-    6. reason: Final position calculation
-        - calculation:
-            - Selected position within overlap: x=3.4435, y=1.1259, z=0.509
-        - conclusion: Final position: x: 3.4435, y: 1.1259, z: 0.509
-
-For fabric_chair_2
-- parent object: dining_table_1
-- calculation_steps:
-    1. reason: Calculate rotation difference with dining_table_1
-        - calculation:
-            - Rotation of fabric_chair_2: 270.0°
+            - Rotation of chair_1: 270.0°
             - Rotation of dining_table_1: 0.0°
             - Rotation difference: |270.0 - 0.0| = 270.0°
         - conclusion: Using width dimension for directional constraint
     2. reason: Calculate size constraint for 'right of' relation
         - calculation:
-            - dining_table_1 size: 1.0 (width)
-            - Cluster size (right of): max(0.0, 0.818) = 0.818
-        - conclusion: fabric_chair_2 cluster size (right of): 0.818
+            - chair_1 size: 0.6 (width)
+            - Cluster size (right of): max(0.0, 0.6) = 0.6
+        - conclusion: chair_1 cluster size (right of): 0.6
     3. reason: Calculate possible positions based on 'middle of the room' constraint
         - calculation:
-            - fabric_chair_2 size: length=0.869, width=0.818, height=1.018
+            - chair_1 size: length=0.7, width=0.6, height=1.2
             - Room size: 5.0x5.0x3.0
-            - x_min = 2.5 - 5.0/2 + 0.818/2 = 0.409
-            - x_max = 2.5 + 5.0/2 - 0.818/2 = 4.591
-            - y_min = 2.5 - 5.0/2 + 0.869/2 = 0.4345
-            - y_max = 2.5 + 5.0/2 - 0.869/2 = 4.5655
-            - z_min = z_max = 1.018/2 = 0.509
-        - conclusion: Possible position: (0.409, 4.591, 0.4345, 4.5655, 0.509, 0.509)
+            - x_min = 2.5 - 5.0/2 + 0.6/2 = 0.3
+            - x_max = 2.5 + 5.0/2 - 0.6/2 = 4.7
+            - y_min = 2.5 - 5.0/2 + 0.7/2 = 0.35
+            - y_max = 2.5 + 5.0/2 - 0.7/2 = 4.65
+            - z_min = z_max = 1.2/2 = 0.6
+        - conclusion: Possible position: (0.3, 4.7, 0.35, 4.65, 0.6, 0.6)
     4. reason: Adjust boundaries for valid placement
         - calculation:
-            - Adjusted cluster constraint: x(0.409-4.591), y(0.4345-4.5655)
-            - Final coordinates: x=4.4721, y=2.2772, z=0.509
-        - conclusion: Final position: x: 4.4721, y: 2.2772, z: 0.509
+            - Adjusted cluster constraint: x(0.3-4.7), y(0.35-4.65)
+            - Final coordinates: x=3.2682, y=2.2124, z=0.6
+        - conclusion: Final position: x: 3.2682, y: 2.2124, z: 0.6
     5. reason: Collision check with other objects
         - calculation:
-            - No other objects in proximity
+            - No collision detected with other objects
         - conclusion: No collision detected
     6. reason: Final position calculation
         - calculation:
-            - Selected position within overlap: x=4.4721, y=2.2772, z=0.509
-        - conclusion: Final position: x: 4.4721, y: 2.2772, z: 0.509
+            - Selected position within overlap: x=3.2682, y=2.2124, z=0.6
+        - conclusion: Final position: x: 3.2682, y: 2.2124, z: 0.6
 
-For fabric_chair_3
+For chair_2
 - parent object: dining_table_1
 - calculation_steps:
     1. reason: Calculate rotation difference with dining_table_1
         - calculation:
-            - Rotation of fabric_chair_3: 90.0°
+            - Rotation of chair_2: 90.0°
             - Rotation of dining_table_1: 0.0°
             - Rotation difference: |90.0 - 0.0| = 90.0°
         - conclusion: Using width dimension for directional constraint
     2. reason: Calculate size constraint for 'left of' relation
         - calculation:
-            - dining_table_1 size: 1.0 (width)
-            - Cluster size (left of): max(0.0, 0.818) = 0.818
-        - conclusion: fabric_chair_3 cluster size (left of): 0.818
+            - chair_2 size: 0.6 (width)
+            - Cluster size (left of): max(0.0, 0.6) = 0.6
+        - conclusion: chair_2 cluster size (left of): 0.6
     3. reason: Calculate possible positions based on 'middle of the room' constraint
         - calculation:
-            - fabric_chair_3 size: length=0.869, width=0.818, height=1.018
+            - chair_2 size: length=0.7, width=0.6, height=1.2
             - Room size: 5.0x5.0x3.0
-            - x_min = 2.5 - 5.0/2 + 0.818/2 = 0.409
-            - x_max = 2.5 + 5.0/2 - 0.818/2 = 4.591
-            - y_min = 2.5 - 5.0/2 + 0.869/2 = 0.4345
-            - y_max = 2.5 + 5.0/2 - 0.869/2 = 4.5655
-            - z_min = z_max = 1.018/2 = 0.509
-        - conclusion: Possible position: (0.409, 4.591, 0.4345, 4.5655, 0.509, 0.509)
+            - x_min = 2.5 - 5.0/2 + 0.6/2 = 0.3
+            - x_max = 2.5 + 5.0/2 - 0.6/2 = 4.7
+            - y_min = 2.5 - 5.0/2 + 0.7/2 = 0.35
+            - y_max = 2.5 + 5.0/2 - 0.7/2 = 4.65
+            - z_min = z_max = 1.2/2 = 0.6
+        - conclusion: Possible position: (0.3, 4.7, 0.35, 4.65, 0.6, 0.6)
     4. reason: Adjust boundaries for valid placement
         - calculation:
-            - Adjusted cluster constraint: x(0.409-4.591), y(0.4345-4.5655)
-            - Final coordinates: x=2.0546, y=2.2599, z=0.509
-        - conclusion: Final position: x: 2.0546, y: 2.2599, z: 0.509
+            - Adjusted cluster constraint: x(0.3-4.7), y(0.35-4.65)
+            - Final coordinates: x=0.6682, y=2.1298, z=0.6
+        - conclusion: Final position: x: 0.6682, y: 2.1298, z: 0.6
     5. reason: Collision check with other objects
         - calculation:
-            - No other objects in proximity
+            - No collision detected with other objects
         - conclusion: No collision detected
     6. reason: Final position calculation
         - calculation:
-            - Selected position within overlap: x=2.0546, y=2.2599, z=0.509
-        - conclusion: Final position: x: 2.0546, y: 2.2599, z: 0.509
+            - Selected position within overlap: x=0.6682, y=2.1298, z=0.6
+        - conclusion: Final position: x: 0.6682, y: 2.1298, z: 0.6
+
+For chair_3
+- parent object: dining_table_1
+- calculation_steps:
+    1. reason: Calculate rotation difference with dining_table_1
+        - calculation:
+            - Rotation of chair_3: 0.0°
+            - Rotation of dining_table_1: 0.0°
+            - Rotation difference: |0.0 - 0.0| = 0.0°
+        - conclusion: Using length dimension for directional constraint
+    2. reason: Calculate size constraint for 'behind' relation
+        - calculation:
+            - chair_3 size: 0.7 (length)
+            - Cluster size (behind): max(0.0, 0.7) = 0.7
+        - conclusion: chair_3 cluster size (behind): 0.7
+    3. reason: Calculate possible positions based on 'middle of the room' constraint
+        - calculation:
+            - chair_3 size: length=0.7, width=0.6, height=1.2
+            - Room size: 5.0x5.0x3.0
+            - x_min = 2.5 - 5.0/2 + 0.7/2 = 0.35
+            - x_max = 2.5 + 5.0/2 - 0.7/2 = 4.65
+            - y_min = 2.5 - 5.0/2 + 0.6/2 = 0.3
+            - y_max = 2.5 + 5.0/2 - 0.6/2 = 4.7
+            - z_min = z_max = 1.2/2 = 0.6
+        - conclusion: Possible position: (0.35, 4.65, 0.3, 4.7, 0.6, 0.6)
+    4. reason: Adjust boundaries for valid placement
+        - calculation:
+            - Adjusted cluster constraint: x(0.35-4.65), y(0.3-4.7)
+            - Final coordinates: x=1.7841, y=1.0714, z=0.6
+        - conclusion: Final position: x: 1.7841, y: 1.0714, z: 0.6
+    5. reason: Collision check with other objects
+        - calculation:
+            - No collision detected with other objects
+        - conclusion: No collision detected
+    6. reason: Final position calculation
+        - calculation:
+            - Selected position within overlap: x=1.7841, y=1.0714, z=0.6
+        - conclusion: Final position: x: 1.7841, y: 1.0714, z: 0.6
+
+For chair_4
+- parent object: dining_table_1
+- calculation_steps:
+    1. reason: Calculate rotation difference with dining_table_1
+        - calculation:
+            - Rotation of chair_4: 180.0°
+            - Rotation of dining_table_1: 0.0°
+            - Rotation difference: |180.0 - 0.0| = 180.0°
+        - conclusion: Using length dimension for directional constraint
+    2. reason: Calculate size constraint for 'in front' relation
+        - calculation:
+            - chair_4 size: 0.7 (length)
+            - Cluster size (in front): max(0.0, 0.7) = 0.7
+        - conclusion: chair_4 cluster size (in front): 0.7
+    3. reason: Calculate possible positions based on 'middle of the room' constraint
+        - calculation:
+            - chair_4 size: length=0.7, width=0.6, height=1.2
+            - Room size: 5.0x5.0x3.0
+            - x_min = 2.5 - 5.0/2 + 0.7/2 = 0.35
+            - x_max = 2.5 + 5.0/2 - 0.7/2 = 4.65
+            - y_min = 2.5 - 5.0/2 + 0.6/2 = 0.3
+            - y_max = 2.5 + 5.0/2 - 0.6/2 = 4.7
+            - z_min = z_max = 1.2/2 = 0.6
+        - conclusion: Possible position: (0.35, 4.65, 0.3, 4.7, 0.6, 0.6)
+    4. reason: Adjust boundaries for valid placement
+        - calculation:
+            - Adjusted cluster constraint: x(0.35-4.65), y(0.3-4.7)
+            - Final coordinates: x=2.1393, y=3.2714, z=0.6
+        - conclusion: Final position: x: 2.1393, y: 3.2714, z: 0.6
+    5. reason: Collision check with other objects
+        - calculation:
+            - No collision detected with other objects
+        - conclusion: No collision detected
+    6. reason: Final position calculation
+        - calculation:
+            - Selected position within overlap: x=2.1393, y=3.2714, z=0.6
+        - conclusion: Final position: x: 2.1393, y: 3.2714, z: 0.6
 
 For pendant_light_1
 - parent object: dining_table_1
@@ -178,7 +228,7 @@ For pendant_light_1
         - conclusion: Using length dimension for directional constraint
     2. reason: Calculate size constraint for 'above' relation
         - calculation:
-            - dining_table_1 size: 2.0 (length)
+            - pendant_light_1 size: 0.5 (length)
             - Cluster size (above): max(0.0, 0.5) = 0.5
         - conclusion: pendant_light_1 cluster size (above): 0.5
     3. reason: Calculate possible positions based on 'ceiling' constraint
@@ -194,47 +244,88 @@ For pendant_light_1
     4. reason: Adjust boundaries for valid placement
         - calculation:
             - Adjusted cluster constraint: x(0.25-4.75), y(0.25-4.75)
-            - Final coordinates: x=3.5567, y=2.3813, z=2.5
-        - conclusion: Final position: x: 3.5567, y: 2.3813, z: 2.5
+            - Final coordinates: x=1.4747, y=1.8424, z=2.5
+        - conclusion: Final position: x: 1.4747, y: 1.8424, z: 2.5
     5. reason: Collision check with other objects
         - calculation:
-            - No other objects in proximity
+            - No collision detected with other objects
         - conclusion: No collision detected
     6. reason: Final position calculation
         - calculation:
-            - Selected position within overlap: x=3.5567, y=2.3813, z=2.5
-        - conclusion: Final position: x: 3.5567, y: 2.3813, z: 2.5
+            - Selected position within overlap: x=1.4747, y=1.8424, z=2.5
+        - conclusion: Final position: x: 1.4747, y: 1.8424, z: 2.5
 
-For buffet_1
+For rug_1
+- parent object: dining_table_1
 - calculation_steps:
-    1. reason: Calculate rotation difference with other objects
+    1. reason: Calculate rotation difference with dining_table_1
         - calculation:
-            - No other objects in proximity
-        - conclusion: No rotation difference calculation needed
-    2. reason: Calculate size constraint for 'south_wall' relation
+            - Rotation of rug_1: 0.0°
+            - Rotation of dining_table_1: 0.0°
+            - Rotation difference: |0.0 - 0.0| = 0.0°
+        - conclusion: Using length dimension for directional constraint
+    2. reason: Calculate size constraint for 'under' relation
         - calculation:
-            - buffet_1 size: 1.5 (length)
-            - Cluster size (south_wall): max(0.0, 0.0) = 0.0
-        - conclusion: buffet_1 cluster size (south_wall): 0.0
-    3. reason: Calculate possible positions based on 'south_wall' constraint
+            - rug_1 size: 2.5 (length)
+            - Cluster size (under): max(0.0, 2.5) = 2.5
+        - conclusion: rug_1 cluster size (under): 2.5
+    3. reason: Calculate possible positions based on 'middle of the room' constraint
         - calculation:
-            - buffet_1 size: length=1.5, width=0.6, height=1.8
+            - rug_1 size: length=2.5, width=1.5, height=0.01
             - Room size: 5.0x5.0x3.0
-            - x_min = 2.5 - 5.0/2 + 1.5/2 = 0.75
-            - x_max = 2.5 + 5.0/2 - 1.5/2 = 4.25
-            - y_min = y_max = 0.3
-            - z_min = z_max = 1.8/2 = 0.9
-        - conclusion: Possible position: (0.75, 4.25, 0.3, 0.3, 0.9, 0.9)
+            - x_min = 2.5 - 5.0/2 + 2.5/2 = 1.25
+            - x_max = 2.5 + 5.0/2 - 2.5/2 = 3.75
+            - y_min = 2.5 - 5.0/2 + 1.5/2 = 0.75
+            - y_max = 2.5 + 5.0/2 - 1.5/2 = 4.25
+            - z_min = z_max = 0.01/2 = 0.005
+        - conclusion: Possible position: (1.25, 3.75, 0.75, 4.25, 0.005, 0.005)
     4. reason: Adjust boundaries for valid placement
         - calculation:
-            - Adjusted cluster constraint: x(0.75-4.25), y(0.3-0.3)
-            - Final coordinates: x=3.1193, y=0.3, z=0.9
-        - conclusion: Final position: x: 3.1193, y: 0.3, z: 0.9
+            - Adjusted cluster constraint: x(1.25-3.75), y(0.75-4.25)
+            - Final coordinates: x=2.1132, y=2.1113, z=0.005
+        - conclusion: Final position: x: 2.1132, y: 2.1113, z: 0.005
     5. reason: Collision check with other objects
         - calculation:
-            - No other objects in proximity
+            - No collision detected with other objects
         - conclusion: No collision detected
     6. reason: Final position calculation
         - calculation:
-            - Selected position within overlap: x=3.1193, y=0.3, z=0.9
-        - conclusion: Final position: x: 3.1193, y: 0.3, z: 0.9
+            - Selected position within overlap: x=2.1132, y=2.1113, z=0.005
+        - conclusion: Final position: x: 2.1132, y: 2.1113, z: 0.005
+
+For wall_art_1
+- calculation_steps:
+    1. reason: Calculate rotation difference with south_wall
+        - calculation:
+            - Rotation of wall_art_1: 0.0°
+            - Rotation of south_wall: 0.0°
+            - Rotation difference: |0.0 - 0.0| = 0.0°
+        - conclusion: Using length dimension for directional constraint
+    2. reason: Calculate size constraint for 'on' relation
+        - calculation:
+            - wall_art_1 size: 1.2 (length)
+            - Cluster size (on): max(0.0, 1.2) = 1.2
+        - conclusion: wall_art_1 cluster size (on): 1.2
+    3. reason: Calculate possible positions based on 'south_wall' constraint
+        - calculation:
+            - wall_art_1 size: length=1.2, width=0.05, height=0.8
+            - Room size: 5.0x5.0x3.0
+            - x_min = 2.5 - 5.0/2 + 1.2/2 = 0.6
+            - x_max = 2.5 + 5.0/2 - 1.2/2 = 4.4
+            - y_min = y_max = 0.05/2 = 0.025
+            - z_min = 1.5 - 3.0/2 + 0.8/2 = 0.4
+            - z_max = 1.5 + 3.0/2 - 0.8/2 = 2.6
+        - conclusion: Possible position: (0.6, 4.4, 0.025, 0.025, 0.4, 2.6)
+    4. reason: Adjust boundaries for valid placement
+        - calculation:
+            - Adjusted cluster constraint: x(0.6-4.4), y(0.025-0.025)
+            - Final coordinates: x=2.4635, y=0.025, z=2.1677
+        - conclusion: Final position: x: 2.4635, y: 0.025, z: 2.1677
+    5. reason: Collision check with other objects
+        - calculation:
+            - No collision detected with other objects
+        - conclusion: No collision detected
+    6. reason: Final position calculation
+        - calculation:
+            - Selected position within overlap: x=2.4635, y=0.025, z=2.1677
+        - conclusion: Final position: x: 2.4635, y: 0.025, z: 2.1677

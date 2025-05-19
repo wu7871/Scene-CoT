@@ -1,63 +1,101 @@
 ## 1. Requirement Analysis
-The user envisions a luxurious bathroom characterized by a white ceramic bathtub, a marble sink counter, and a silver faucet. The room measures 5.0 meters by 5.0 meters with a ceiling height of 3.0 meters. The user emphasizes a luxurious aesthetic, suggesting additional elements like a glass shower enclosure, a towel rack, a mirror, and ambient lighting to enhance the room's functionality and luxury. The focus is on creating a cohesive and elegant space that avoids clutter while fulfilling the user's luxurious vision.
+The user envisions a luxurious bathroom featuring specific elements such as a white ceramic bathtub, a marble sink counter, and a silver faucet. The room measures 5.0 meters by 5.0 meters with a ceiling height of 3.0 meters. The user emphasizes a luxurious aesthetic, suggesting additional items like a bath mat, towel rack, mirror, and decorative lighting to enhance both functionality and luxury. The design should harmonize with these elements while ensuring the total number of objects does not exceed twelve.
 
 ## 2. Area Decomposition
-The bathroom is divided into several functional substructures to meet the user's requirements. The Bathtub Area is designated for the luxurious ceramic bathtub, serving as the focal point of the room. The Sink Counter Area includes the marble sink counter with a silver faucet, enhancing both functionality and aesthetic appeal. The Shower Area is intended for a glass shower enclosure, adding luxury and privacy. The Towel Rack Area provides easy access to towels, while the Mirror Area includes a mirror to complement the sink setup. Finally, the Lighting Area focuses on ambient lighting to enhance the luxurious ambiance.
+The bathroom is divided into several substructures to meet the user's requirements. The Bathtub Area is designated for the ceramic bathtub, serving as the focal point of the room. The Sink Counter Area includes the marble sink counter with a silver faucet, providing a functional and aesthetically pleasing grooming zone. The Towel Rack Area is intended for storing towels conveniently placed near the sink. The Lighting Area focuses on enhancing ambiance with a ceiling light fixture. Each substructure is designed to contribute to the overall luxurious and functional bathroom environment.
 
 ## 3. Object Recommendations
-For the Bathtub Area, a luxurious white ceramic bathtub measuring 2.0 meters by 1.5 meters by 0.8 meters is recommended. The Sink Counter Area features a marble sink counter with dimensions of 1.2 meters by 0.6 meters by 1.0 meter, paired with a silver faucet. The Shower Area includes a modern glass shower enclosure measuring 1.5 meters by 1.5 meters by 2.2 meters. A chrome towel rack (0.621 meters by 0.281 meters by 1.94 meters) is recommended for the Towel Rack Area. The Mirror Area includes a modern glass mirror (1.0 meter by 0.05 meter by 1.5 meters) to complement the sink. Finally, a modern ambient light (0.5 meters by 0.5 meters by 1.5 meters) is suggested for the Lighting Area to enhance the room's luxurious feel.
+For the Bathtub Area, a luxurious white ceramic bathtub measuring 2.0 meters by 1.0 meter by 0.8 meters is recommended. The Sink Counter Area features a marble sink counter (1.5 meters by 0.6 meters by 0.9 meters) with a silver faucet, complementing the luxurious theme. A chrome towel rack (0.625 meters by 0.25 meters by 1.0 meter) is suggested for the Towel Rack Area to hold towels. The Lighting Area includes a crystal ceiling light (0.5 meters by 0.5 meters by 0.3 meters) to provide ambient lighting. Additionally, a beige bath mat (1.2 meters by 0.8 meters by 0.02 meters) is recommended to add comfort and elegance.
 
 ## 4. Scene Graph
-The bathtub, a central element of the luxurious bathroom, is placed against the south wall, facing the north wall. This placement maximizes space and ensures stability, making it the focal point of the room. The bathtub's dimensions (2.0m x 1.5m x 0.8m) allow it to fit comfortably against the wall, ensuring no spatial conflicts and adhering to design principles of balance and proportion.
+The bathtub, a central element of the bathroom, is placed against the north wall, facing the south wall. This placement ensures it serves as a focal point upon entering the room, aligning with the user's luxurious theme. The bathtub's dimensions (2.0m x 1.0m x 0.8m) allow it to fit comfortably against the wall, maximizing floor space and ensuring easy access from all sides. The placement process involved considering the room's dimensions and ensuring the bathtub's stability and accessibility, adhering to design principles of balance and proportion.
 
-The sink counter is positioned on the east wall, facing the west wall. This placement complements the bathtub without causing spatial conflicts, maintaining balance and functionality. The sink counter's dimensions (1.2m x 0.6m x 1.0m) ensure it does not block pathways or interfere with the bathtub's use, enhancing the room's luxurious aesthetic.
+The sink counter, a key component for grooming, is placed on the east wall, facing the west wall. This positioning ensures it complements the bathtub's location without causing spatial conflicts. The sink counter's dimensions (1.5m x 0.6m x 0.9m) fit well along the wall, maintaining balance and proportion in the room. The faucet, a decorative and functional element, is centrally placed on the sink counter, ensuring it is easily accessible and aesthetically pleasing.
 
-The faucet is centrally placed on the sink counter, facing the west wall. This placement ensures functionality and aesthetic coherence, with dimensions (0.152m x 0.13m x 0.214m) that fit well within the sink counter's space, avoiding any spatial conflicts.
+The towel rack is positioned on the west wall, facing the east wall. This placement ensures it is conveniently located near the sink counter for functionality and maintains the luxurious aesthetic with its chrome finish. The towel rack's dimensions (0.625m x 0.25m x 1.0m) allow it to fit comfortably on the wall without disrupting the room's flow.
 
-The shower enclosure is placed in the northeast corner, facing the southwest wall. This positioning maintains a luxurious and functional bathroom layout, with dimensions (1.5m x 1.5m x 2.2m) that ensure no overlap with existing objects, enhancing the room's luxurious feel.
+The bath mat is placed directly in front of the bathtub, ensuring easy access and maintaining the luxurious theme. Its dimensions (1.2m x 0.8m x 0.02m) allow it to fit comfortably without obstructing movement, enhancing both functionality and aesthetic appeal.
 
-The towel rack is placed on the west wall, facing the east wall. This placement ensures accessibility from the bathtub and sink counter, with dimensions (0.621m x 0.281m x 1.94m) that allow it to fit without conflict, enhancing the room's luxurious aesthetic.
-
-The mirror is placed above the sink counter on the east wall, facing the west wall. This placement ensures functionality and aesthetic coherence, with dimensions (1.0m x 0.05m x 1.5m) that complement the existing marble sink counter, avoiding spatial conflicts.
-
-The ambient light is placed on the ceiling, centrally located to provide even illumination throughout the room. This placement enhances the luxurious ambiance without obstructing any existing objects, with dimensions (0.5m x 0.5m x 1.5m) that ensure it serves its purpose effectively.
+The ceiling light is centrally placed on the ceiling, ensuring even illumination across the room. Its dimensions (0.5m x 0.5m x 0.3m) make it suitable for the room's height, providing necessary lighting while complementing the luxurious theme.
 
 ## 5. Global Check
-There are no conflicts identified in the current layout. All objects are placed in a manner that avoids spatial conflicts and adheres to the user's luxurious aesthetic and functional requirements. The placement of each object respects design principles, ensuring balance, proportion, and accessibility throughout the room.
+A conflict was identified regarding the placement of the mirror. The width of the sink counter was too small to accommodate the mirror to its right. To resolve this, the mirror was removed, as it was deemed less critical compared to the other elements specified by the user. This decision maintained the room's functionality and luxurious aesthetic without exceeding the user's preferences or the room's capacity.
 
 ## 6. Object Placement
 For bathtub_1
 - calculation_steps:
-    1. reason: Calculate rotation difference with no child
+    1. reason: Calculate rotation difference with bath_mat_1
         - calculation:
-            - Bathtub_1 has no child, so no rotation difference calculation needed.
-        - conclusion: No rotation difference calculation required.
-    2. reason: Calculate size constraint for 'south_wall' relation
+            - Rotation of bathtub_1: 180.0°
+            - Rotation of bath_mat_1: 180.0°
+            - Rotation difference: |180.0 - 180.0| = 0.0°
+        - conclusion: Using length dimension for directional constraint
+    2. reason: Calculate size constraint for 'in front' relation
         - calculation:
-            - Bathtub_1 size: length=2.0, width=1.5, height=0.8
-            - Cluster size: {'left of': 0.0, 'right of': 0.0, 'behind': 0.0, 'in front': 0.0}
-        - conclusion: No directional constraint applied.
-    3. reason: Calculate possible positions based on 'south_wall' constraint
+            - bath_mat_1 size: 1.2 (length)
+            - Cluster size (in front): max(0.0, 1.2) = 1.2
+        - conclusion: bathtub_1 cluster size (in front): 1.2
+    3. reason: Calculate possible positions based on 'north_wall' constraint
         - calculation:
+            - bathtub_1 size: length=2.0, width=1.0, height=0.8
             - Room size: 5.0x5.0x3.0
-            - South_wall position: x=2.5, y=0, z=1.5
             - x_min = 2.5 - 5.0/2 + 2.0/2 = 1.0
             - x_max = 2.5 + 5.0/2 - 2.0/2 = 4.0
-            - y_min = y_max = 0.75
-            - z_min = z_max = 0.4
-        - conclusion: Possible position: (1.0, 4.0, 0.75, 0.75, 0.4, 0.4)
+            - y_min = 5.0 - 1.0/2 = 4.5
+            - y_max = 5.0 - 1.0/2 = 4.5
+            - z_min = z_max = 0.8/2 = 0.4
+        - conclusion: Possible position: (1.0, 4.0, 4.5, 4.5, 0.4, 0.4)
     4. reason: Adjust boundaries for valid placement
         - calculation:
-            - Adjusted cluster constraint: x(1.0-4.0), y(0.75-0.75)
-        - conclusion: Valid placement boundaries confirmed.
+            - Adjusted cluster constraint: x(1.0-4.0), y(4.5-4.5)
+            - Final coordinates: x=3.3141, y=4.5, z=0.4
+        - conclusion: Final position: x: 3.3141, y: 4.5, z: 0.4
     5. reason: Collision check with other objects
         - calculation:
-            - No other objects present for collision check.
-        - conclusion: No collision detected.
+            - No collision detected with other objects
+        - conclusion: No collision detected
     6. reason: Final position calculation
         - calculation:
-            - Selected position within overlap: x=1.6877, y=0.75, z=0.4
-        - conclusion: Final position: x: 1.6877, y: 0.75, z: 0.4
+            - Final coordinates: x=3.3141, y=4.5, z=0.4
+        - conclusion: Final position: x: 3.3141, y: 4.5, z: 0.4
+
+For bath_mat_1
+- parent object: bathtub_1
+    - calculation_steps:
+        1. reason: Calculate rotation difference with bathtub_1
+            - calculation:
+                - Rotation of bath_mat_1: 180.0°
+                - Rotation of bathtub_1: 180.0°
+                - Rotation difference: |180.0 - 180.0| = 0.0°
+            - conclusion: Using length dimension for directional constraint
+        2. reason: Calculate size constraint for 'in front' relation
+            - calculation:
+                - bath_mat_1 size: 1.2 (length)
+                - Cluster size (in front): max(0.0, 1.2) = 1.2
+            - conclusion: bath_mat_1 cluster size (in front): 1.2
+        3. reason: Calculate possible positions based on 'middle of the room' constraint
+            - calculation:
+                - bath_mat_1 size: length=1.2, width=0.8, height=0.02
+                - Room size: 5.0x5.0x3.0
+                - x_min = 2.5 - 5.0/2 + 1.2/2 = 0.6
+                - x_max = 2.5 + 5.0/2 - 1.2/2 = 4.4
+                - y_min = 2.5 - 5.0/2 + 0.8/2 = 0.4
+                - y_max = 2.5 + 5.0/2 - 0.8/2 = 4.6
+                - z_min = z_max = 0.02/2 = 0.01
+            - conclusion: Possible position: (0.6, 4.4, 0.4, 4.6, 0.01, 0.01)
+        4. reason: Adjust boundaries for valid placement
+            - calculation:
+                - Adjusted cluster constraint: x(0.6-4.4), y(0.4-4.6)
+                - Final coordinates: x=3.1213, y=3.6001, z=0.01
+            - conclusion: Final position: x: 3.1213, y: 3.6001, z: 0.01
+        5. reason: Collision check with bathtub_1
+            - calculation:
+                - No collision detected with bathtub_1
+            - conclusion: No collision detected
+        6. reason: Final position calculation
+            - calculation:
+                - Final coordinates: x=3.1213, y=3.6001, z=0.01
+            - conclusion: Final position: x: 3.1213, y: 3.6001, z: 0.01
 
 For sink_counter_1
 - calculation_steps:
@@ -67,204 +105,140 @@ For sink_counter_1
             - Rotation of faucet_1: 270.0°
             - Rotation difference: |270.0 - 270.0| = 0.0°
         - conclusion: Using length dimension for directional constraint
-    2. reason: Calculate size constraint for 'east_wall' relation
+    2. reason: Calculate size constraint for 'on' relation
         - calculation:
-            - Sink_counter_1 size: length=1.2, width=0.6, height=1.0
-            - Cluster size: {'left of': 0.0, 'right of': 0.0, 'behind': 0.0, 'in front': 0.0}
-        - conclusion: No directional constraint applied.
+            - faucet_1 size: 0.12 (length)
+            - Cluster size (on): max(0.0, 0.12) = 0.12
+        - conclusion: sink_counter_1 cluster size (on): 0.12
     3. reason: Calculate possible positions based on 'east_wall' constraint
         - calculation:
+            - sink_counter_1 size: length=1.5, width=0.6, height=0.9
             - Room size: 5.0x5.0x3.0
-            - East_wall position: x=5.0, y=2.5, z=1.5
-            - x_min = 5.0 - 0.0/2 - 0.6/2 = 4.7
-            - x_max = 5.0 - 0.0/2 - 0.6/2 = 4.7
-            - y_min = 2.5 - 5.0/2 + 1.2/2 = 0.6
-            - y_max = 2.5 + 5.0/2 - 1.2/2 = 4.4
-            - z_min = z_max = 0.5
-        - conclusion: Possible position: (4.7, 4.7, 0.6, 4.4, 0.5, 0.5)
+            - x_min = 5.0 - 0.6/2 = 4.7
+            - x_max = 5.0 - 0.6/2 = 4.7
+            - y_min = 2.5 - 5.0/2 + 1.5/2 = 0.75
+            - y_max = 2.5 + 5.0/2 - 1.5/2 = 4.25
+            - z_min = z_max = 0.9/2 = 0.45
+        - conclusion: Possible position: (4.7, 4.7, 0.75, 4.25, 0.45, 0.45)
     4. reason: Adjust boundaries for valid placement
         - calculation:
-            - Adjusted cluster constraint: x(4.7-4.7), y(0.6-4.4)
-        - conclusion: Valid placement boundaries confirmed.
+            - Adjusted cluster constraint: x(4.7-4.7), y(0.75-4.25)
+            - Final coordinates: x=4.7, y=1.4452, z=0.45
+        - conclusion: Final position: x: 4.7, y: 1.4452, z: 0.45
     5. reason: Collision check with other objects
         - calculation:
-            - No other objects present for collision check.
-        - conclusion: No collision detected.
+            - No collision detected with other objects
+        - conclusion: No collision detected
     6. reason: Final position calculation
         - calculation:
-            - Selected position within overlap: x=4.7, y=2.8752, z=0.5
-        - conclusion: Final position: x: 4.7, y: 2.8752, z: 0.5
+            - Final coordinates: x=4.7, y=1.4452, z=0.45
+        - conclusion: Final position: x: 4.7, y: 1.4452, z: 0.45
 
 For faucet_1
 - parent object: sink_counter_1
-- calculation_steps:
-    1. reason: Calculate rotation difference with no child
-        - calculation:
-            - Faucet_1 has no child, so no rotation difference calculation needed.
-        - conclusion: No rotation difference calculation required.
-    2. reason: Calculate size constraint for 'on' relation
-        - calculation:
-            - Faucet_1 size: length=0.152, width=0.13, height=0.214
-            - Cluster size: {'left of': 0.0, 'right of': 0.0, 'behind': 0.0, 'in front': 0.0}
-        - conclusion: No directional constraint applied.
-    3. reason: Calculate possible positions based on 'sink_counter_1' constraint
-        - calculation:
-            - Room size: 5.0x5.0x3.0
-            - Sink_counter_1 position: x=4.7, y=2.8752, z=0.5
-            - x_min = 4.7 - 0.0/2 - 0.13/2 = 4.685
-            - x_max = 4.7 + 0.0/2 + 0.13/2 = 4.715
-            - y_min = 2.8752 - 1.2/2 + 0.152/2 = 2.3572
-            - y_max = 2.8752 + 1.2/2 - 0.152/2 = 3.3932
-            - z_min = z_max = 1.107
-        - conclusion: Possible position: (4.685, 4.715, 2.3572, 3.3932, 1.107, 1.107)
-    4. reason: Adjust boundaries for valid placement
-        - calculation:
-            - Adjusted cluster constraint: x(4.685-4.715), y(2.3572-3.3932)
-        - conclusion: Valid placement boundaries confirmed.
-    5. reason: Collision check with other objects
-        - calculation:
-            - No other objects present for collision check.
-        - conclusion: No collision detected.
-    6. reason: Final position calculation
-        - calculation:
-            - Selected position within overlap: x=4.7013, y=2.9814, z=1.107
-        - conclusion: Final position: x: 4.7013, y: 2.9814, z: 1.107
-
-For shower_enclosure_1
-- calculation_steps:
-    1. reason: Calculate rotation difference with no child
-        - calculation:
-            - Shower_enclosure_1 has no child, so no rotation difference calculation needed.
-        - conclusion: No rotation difference calculation required.
-    2. reason: Calculate size constraint for 'northeast_corner' relation
-        - calculation:
-            - Shower_enclosure_1 size: length=1.5, width=1.5, height=2.2
-            - Cluster size: {'left of': 0.0, 'right of': 0.0, 'behind': 0.0, 'in front': 0.0}
-        - conclusion: No directional constraint applied.
-    3. reason: Calculate possible positions based on 'northeast_corner' constraint
-        - calculation:
-            - Room size: 5.0x5.0x3.0
-            - Northeast_corner position: x=5.0, y=0.0, z=1.5
-            - x_min = 5.0 - 0.0/2 - 1.5/2 = 4.25
-            - x_max = 5.0 - 0.0/2 - 1.5/2 = 4.25
-            - y_min = 0.0 + 0.0/2 + 1.5/2 = 0.75
-            - y_max = 0.0 + 0.0/2 + 1.5/2 = 0.75
-            - z_min = z_max = 1.1
-        - conclusion: Possible position: (4.25, 4.25, 0.75, 0.75, 1.1, 1.1)
-    4. reason: Adjust boundaries for valid placement
-        - calculation:
-            - Adjusted cluster constraint: x(4.25-4.25), y(0.75-0.75)
-        - conclusion: Valid placement boundaries confirmed.
-    5. reason: Collision check with other objects
-        - calculation:
-            - No other objects present for collision check.
-        - conclusion: No collision detected.
-    6. reason: Final position calculation
-        - calculation:
-            - Selected position within overlap: x=4.25, y=0.75, z=1.1
-        - conclusion: Final position: x: 4.25, y: 0.75, z: 1.1
+    - calculation_steps:
+        1. reason: Calculate rotation difference with sink_counter_1
+            - calculation:
+                - Rotation of faucet_1: 270.0°
+                - Rotation of sink_counter_1: 270.0°
+                - Rotation difference: |270.0 - 270.0| = 0.0°
+            - conclusion: Using length dimension for directional constraint
+        2. reason: Calculate size constraint for 'on' relation
+            - calculation:
+                - faucet_1 size: 0.12 (length)
+                - Cluster size (on): max(0.0, 0.12) = 0.12
+            - conclusion: faucet_1 cluster size (on): 0.12
+        3. reason: Calculate possible positions based on 'east_wall' constraint
+            - calculation:
+                - faucet_1 size: length=0.12, width=0.08, height=0.2
+                - Room size: 5.0x5.0x3.0
+                - x_min = 5.0 - 0.08/2 = 4.96
+                - x_max = 5.0 - 0.08/2 = 4.96
+                - y_min = 2.5 - 5.0/2 + 0.12/2 = 0.06
+                - y_max = 2.5 + 5.0/2 - 0.12/2 = 4.94
+                - z_min = 1.5 - 3.0/2 + 0.2/2 = 0.1
+                - z_max = 1.5 + 3.0/2 - 0.2/2 = 2.9
+            - conclusion: Possible position: (4.96, 4.96, 0.06, 4.94, 0.1, 2.9)
+        4. reason: Adjust boundaries for valid placement
+            - calculation:
+                - Adjusted cluster constraint: x(4.96-4.96), y(0.06-4.94)
+                - Final coordinates: x=4.96, y=1.5619, z=1.0
+            - conclusion: Final position: x: 4.96, y: 1.5619, z: 1.0
+        5. reason: Collision check with sink_counter_1
+            - calculation:
+                - No collision detected with sink_counter_1
+            - conclusion: No collision detected
+        6. reason: Final position calculation
+            - calculation:
+                - Final coordinates: x=4.96, y=1.5619, z=1.0
+            - conclusion: Final position: x: 4.96, y: 1.5619, z: 1.0
 
 For towel_rack_1
 - calculation_steps:
-    1. reason: Calculate rotation difference with no child
+    1. reason: Calculate rotation difference with other objects
         - calculation:
-            - Towel_rack_1 has no child, so no rotation difference calculation needed.
-        - conclusion: No rotation difference calculation required.
-    2. reason: Calculate size constraint for 'west_wall' relation
+            - No rotation difference needed as towel_rack_1 is standalone
+        - conclusion: No directional constraint applied
+    2. reason: Calculate size constraint for 'on' relation
         - calculation:
-            - Towel_rack_1 size: length=0.621, width=0.281, height=1.94
-            - Cluster size: {'left of': 0.0, 'right of': 0.0, 'behind': 0.0, 'in front': 0.0}
-        - conclusion: No directional constraint applied.
+            - towel_rack_1 size: 0.625 (length)
+            - Cluster size (on): max(0.0, 0.625) = 0.625
+        - conclusion: towel_rack_1 cluster size (on): 0.625
     3. reason: Calculate possible positions based on 'west_wall' constraint
         - calculation:
+            - towel_rack_1 size: length=0.625, width=0.25, height=1.0
             - Room size: 5.0x5.0x3.0
-            - West_wall position: x=0, y=2.5, z=1.5
-            - x_min = 0 + 0.0/2 + 0.281/2 = 0.1405
-            - x_max = 0 + 0.0/2 + 0.281/2 = 0.1405
-            - y_min = 2.5 - 5.0/2 + 0.621/2 = 0.3105
-            - y_max = 2.5 + 5.0/2 - 0.621/2 = 4.6895
-            - z_min = 1.5 - 3.0/2 + 1.94/2 = 0.97
-            - z_max = 1.5 + 3.0/2 - 1.94/2 = 2.03
-        - conclusion: Possible position: (0.1405, 0.1405, 0.3105, 4.6895, 0.97, 2.03)
+            - x_min = 0 + 0.25/2 = 0.125
+            - x_max = 0 + 0.25/2 = 0.125
+            - y_min = 2.5 - 5.0/2 + 0.625/2 = 0.3125
+            - y_max = 2.5 + 5.0/2 - 0.625/2 = 4.6875
+            - z_min = z_max = 1.0/2 = 0.5
+        - conclusion: Possible position: (0.125, 0.125, 0.3125, 4.6875, 0.5, 0.5)
     4. reason: Adjust boundaries for valid placement
         - calculation:
-            - Adjusted cluster constraint: x(0.1405-0.1405), y(0.3105-4.6895)
-        - conclusion: Valid placement boundaries confirmed.
+            - Adjusted cluster constraint: x(0.125-0.125), y(0.3125-4.6875)
+            - Final coordinates: x=0.125, y=3.4926, z=0.5
+        - conclusion: Final position: x: 0.125, y: 3.4926, z: 0.5
     5. reason: Collision check with other objects
         - calculation:
-            - No other objects present for collision check.
-        - conclusion: No collision detected.
+            - No collision detected with other objects
+        - conclusion: No collision detected
     6. reason: Final position calculation
         - calculation:
-            - Selected position within overlap: x=0.1405, y=1.7825, z=1.9854
-        - conclusion: Final position: x: 0.1405, y: 1.7825, z: 1.9854
+            - Final coordinates: x=0.125, y=3.4926, z=0.5
+        - conclusion: Final position: x: 0.125, y: 3.4926, z: 0.5
 
-For mirror_1
-- parent object: sink_counter_1
+For ceiling_light_1
 - calculation_steps:
-    1. reason: Calculate rotation difference with no child
+    1. reason: Calculate rotation difference with other objects
         - calculation:
-            - Mirror_1 has no child, so no rotation difference calculation needed.
-        - conclusion: No rotation difference calculation required.
-    2. reason: Calculate size constraint for 'above' relation
+            - No rotation difference needed as ceiling_light_1 is standalone
+        - conclusion: No directional constraint applied
+    2. reason: Calculate size constraint for 'on' relation
         - calculation:
-            - Mirror_1 size: length=1.0, width=0.05, height=1.5
-            - Cluster size: {'left of': 0.0, 'right of': 0.0, 'behind': 0.0, 'in front': 0.0}
-        - conclusion: No directional constraint applied.
-    3. reason: Calculate possible positions based on 'east_wall' constraint
-        - calculation:
-            - Room size: 5.0x5.0x3.0
-            - East_wall position: x=5.0, y=2.5, z=1.5
-            - x_min = 5.0 - 0.0/2 - 0.05/2 = 4.975
-            - x_max = 5.0 - 0.0/2 - 0.05/2 = 4.975
-            - y_min = 2.5 - 5.0/2 + 1.0/2 = 0.5
-            - y_max = 2.5 + 5.0/2 - 1.0/2 = 4.5
-            - z_min = 1.5 - 3.0/2 + 1.5/2 = 0.75
-            - z_max = 1.5 + 3.0/2 - 1.5/2 = 2.25
-        - conclusion: Possible position: (4.975, 4.975, 0.5, 4.5, 0.75, 2.25)
-    4. reason: Adjust boundaries for valid placement
-        - calculation:
-            - Adjusted cluster constraint: x(4.975-4.975), y(0.5-4.5)
-        - conclusion: Valid placement boundaries confirmed.
-    5. reason: Collision check with other objects
-        - calculation:
-            - No other objects present for collision check.
-        - conclusion: No collision detected.
-    6. reason: Final position calculation
-        - calculation:
-            - Selected position within overlap: x=4.975, y=3.3074, z=2.1155
-        - conclusion: Final position: x: 4.975, y: 3.3074, z: 2.1155
-
-For ambient_light_1
-- calculation_steps:
-    1. reason: Calculate rotation difference with no child
-        - calculation:
-            - Ambient_light_1 has no child, so no rotation difference calculation needed.
-        - conclusion: No rotation difference calculation required.
-    2. reason: Calculate size constraint for 'ceiling' relation
-        - calculation:
-            - Ambient_light_1 size: length=0.5, width=0.5, height=1.5
-            - Cluster size: {'left of': 0.0, 'right of': 0.0, 'behind': 0.0, 'in front': 0.0}
-        - conclusion: No directional constraint applied.
+            - ceiling_light_1 size: 0.5 (length)
+            - Cluster size (on): max(0.0, 0.5) = 0.5
+        - conclusion: ceiling_light_1 cluster size (on): 0.5
     3. reason: Calculate possible positions based on 'ceiling' constraint
         - calculation:
+            - ceiling_light_1 size: length=0.5, width=0.5, height=0.3
             - Room size: 5.0x5.0x3.0
-            - Ceiling position: x=2.5, y=2.5, z=3.0
             - x_min = 2.5 - 5.0/2 + 0.5/2 = 0.25
             - x_max = 2.5 + 5.0/2 - 0.5/2 = 4.75
             - y_min = 2.5 - 5.0/2 + 0.5/2 = 0.25
             - y_max = 2.5 + 5.0/2 - 0.5/2 = 4.75
-            - z_min = z_max = 2.25
-        - conclusion: Possible position: (0.25, 4.75, 0.25, 4.75, 2.25, 2.25)
+            - z_min = z_max = 3.0 - 0.3/2 = 2.85
+        - conclusion: Possible position: (0.25, 4.75, 0.25, 4.75, 2.85, 2.85)
     4. reason: Adjust boundaries for valid placement
         - calculation:
             - Adjusted cluster constraint: x(0.25-4.75), y(0.25-4.75)
-        - conclusion: Valid placement boundaries confirmed.
+            - Final coordinates: x=1.1473, y=3.1544, z=2.85
+        - conclusion: Final position: x: 1.1473, y: 3.1544, z: 2.85
     5. reason: Collision check with other objects
         - calculation:
-            - No other objects present for collision check.
-        - conclusion: No collision detected.
+            - No collision detected with other objects
+        - conclusion: No collision detected
     6. reason: Final position calculation
         - calculation:
-            - Selected position within overlap: x=2.6334, y=3.6438, z=2.25
-        - conclusion: Final position: x: 2.6334, y: 3.6438, z: 2.25
+            - Final coordinates: x=1.1473, y=3.1544, z=2.85
+        - conclusion: Final position: x: 1.1473, y: 3.1544, z: 2.85

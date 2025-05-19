@@ -1,237 +1,209 @@
 ## 1. Requirement Analysis
-The user envisions an industrial-style loft characterized by raw materials and exposed structural elements. Key components include a leather sofa, a coffee table on wheels, and a metal shelf, all contributing to a minimalist yet robust aesthetic. The room measures 5.0 meters by 5.0 meters with a height of 3.0 meters, providing ample space for the desired furniture arrangement. The user emphasizes the need for a cohesive industrial theme, efficient use of space, and ergonomic design, ensuring the room remains both functional and aesthetically pleasing.
+The user envisions an industrial-style loft characterized by raw materials and exposed structural elements. Key elements include a leather sofa, a coffee table on wheels, and a metal shelf, which are essential for achieving the desired aesthetic and functionality. The room measures 5.0 meters by 5.0 meters with a ceiling height of 3.0 meters, providing ample space for these elements while maintaining an open and airy feel. The user prefers a loft-like atmosphere with exposed beams and brick walls, suggesting additional elements such as a rug, wall art, and a pendant light to enhance the industrial theme and ensure a cohesive design.
 
 ## 2. Area Decomposition
-The room is divided into several substructures to fulfill the user's requirements. The Seating Area is defined by the leather sofa, which serves as the primary seating element. The Central Area is marked by the coffee table on wheels, facilitating easy repositioning and enhancing the room's functionality. The Storage Area is designated for the metal shelf, providing storage while maintaining the industrial aesthetic. Additional areas include the Open Movement Space, ensuring the room remains uncluttered, and the Ceiling Space, which is utilized for lighting to illuminate the entire loft.
+The room is divided into several substructures to align with the user's industrial theme and functional needs. The Seating Area is defined by the placement of the leather sofa against the south wall, providing a comfortable space for relaxation. The Central Area features the coffee table on wheels, facilitating easy repositioning and enhancing the room's functionality. The Storage Area is marked by the metal shelf against the east wall, offering practical storage solutions. Additional elements like the rug under the coffee table and wall art on the west wall contribute to the overall aesthetic and cohesion of the loft.
 
 ## 3. Object Recommendations
-For the Seating Area, a large leather sofa is recommended to anchor the room and align with the industrial theme. The Central Area features a coffee table on wheels, offering flexibility and accessibility. The Storage Area includes a metal shelf for storage purposes. To enhance the industrial theme, a floor lamp is suggested for ambient lighting, along with wall art for decorative purposes. A rug is proposed to define the seating area, adding warmth and texture to the room.
+For the Seating Area, a dark brown leather sofa measuring 3.0 meters by 1.0 meter by 1.0 meter is recommended, providing comfort and a cohesive industrial look. The Central Area features a metal coffee table on wheels, measuring 1.2 meters by 0.8 meters by 0.5 meters, which allows for flexible positioning. The Storage Area includes a metal shelf measuring 1.5 meters by 0.4 meters by 2.0 meters, offering robust storage options. A black metal pendant light (0.5 meters by 0.5 meters by 1.0 meter) is suggested for the ceiling to provide ambient lighting. Wall art (1.0 meter by 0.1 meter by 1.0 meter) is recommended for the west wall to enhance the aesthetic appeal.
 
 ## 4. Scene Graph
-The leather sofa, a central piece in the industrial-style loft, is placed against the north wall, facing the south wall. This placement maximizes space usage and complements the loft's open design, allowing for a clear view across the room. The sofa's dimensions are 3.0 meters in length, 1.0 meter in width, and 1.0 meter in height, fitting comfortably against the wall and leaving ample space for other furniture. This positioning ensures the sofa remains a focal point while adhering to the user's industrial theme.
+The leather sofa is placed against the south wall, facing the north wall, to create a strong focal point and allow for optimal space usage in the industrial loft setting. Its dimensions (3.0m x 1.0m x 1.0m) fit well along the wall, providing a sense of enclosure and support, which is typical of industrial-style furniture. This placement ensures the sofa remains accessible and does not obstruct other elements, maintaining an open and airy feel.
 
-The coffee table on wheels, measuring 1.5 meters by 1.0 meter by 0.5 meters, is centrally located in front of the leather sofa. This placement allows for easy movement and interaction with the sofa, enhancing the room's usability. The table's industrial style complements the sofa, and its wheeled feature ensures it can be repositioned without obstruction, maintaining the room's industrial aesthetic.
+The coffee table on wheels is centrally located in front of the leather sofa, facing the north wall. This placement ensures accessibility and complements the industrial style with its metal material. The table's dimensions (1.2m x 0.8m x 0.5m) allow it to fit comfortably in the space, enhancing the room's functionality and aesthetic without causing clutter.
 
-The metal shelf, with dimensions of 2.0 meters by 0.5 meters by 2.0 meters, is placed against the east wall, facing the west wall. This location provides stability and accessibility without blocking pathways or views, aligning with the user's preference for an industrial-style loft. The shelf's placement enhances the room's aesthetic and functionality, serving as a storage solution while complementing the overall design.
+The metal shelf is placed against the east wall, facing the west wall. This positioning ensures it is visible yet unobtrusive, providing storage without disrupting the room's flow. The shelf's dimensions (1.5m x 0.4m x 2.0m) make it suitable for wall placement, adhering to industrial design principles and enhancing the room's aesthetic.
 
-A floor lamp, measuring 1.8 meters in height, is placed to the right of the leather sofa, facing the north wall. This placement provides optimal lighting to the seating area without obstructing movement or view, enhancing the room's ambiance and maintaining the industrial theme.
+The pendant light is centrally placed on the ceiling, ensuring even illumination throughout the room. Its dimensions (0.5m x 0.5m x 1.0m) allow it to hang freely without interference from other objects. This placement aligns with the industrial style and provides necessary lighting, enhancing both functionality and aesthetic appeal.
 
-Wall art, sized at 1.0 meter by 0.05 meters by 1.5 meters, is hung on the west wall, facing the east wall. This placement ensures the art is visible from the seating area, enhancing the room's aesthetic without causing spatial conflicts, adhering to the industrial theme.
-
-Finally, a rug measuring 3.0 meters by 2.0 meters is placed under the coffee table, in front of the leather sofa. This placement defines the seating area, adding warmth and texture to the room, and does not conflict with any other objects, completing the industrial-themed loft look.
+Wall art is placed on the west wall, facing the east wall. Its dimensions (1.0m x 0.1m x 1.0m) ensure it does not overwhelm the space, adding visual interest without causing clutter. This placement enhances the room's aesthetic balance and complements the industrial theme.
 
 ## 5. Global Check
-No conflicts were identified during the placement process. All objects were positioned to avoid spatial conflicts and maintain the room's industrial aesthetic, ensuring a cohesive and functional design.
+During the placement process, conflicts arose due to the limited space on the south wall, which could not accommodate all intended objects. The rug, side table, floor lamp, and plant were identified as conflicting with the existing leather sofa and coffee table. To resolve these conflicts, the rug, side table, floor lamp, and plant were removed, prioritizing the user's preference for an industrial-style loft with a leather sofa, coffee table on wheels, and metal shelf. This adjustment maintains the room's functionality and aesthetic integrity, ensuring a cohesive and uncluttered design.
 
 ## 6. Object Placement
 For leather_sofa_1
 - calculation_steps:
-    1. reason: Calculate rotation difference with rug_1
+    1. reason: Calculate rotation difference with coffee_table_1
         - calculation:
-            - Rotation of leather_sofa_1: 180.0°
-            - Rotation of rug_1: 180.0°
-            - Rotation difference: |180.0 - 180.0| = 0.0°
+            - Rotation of leather_sofa_1: 0.0°
+            - Rotation of coffee_table_1: 0.0°
+            - Rotation difference: |0.0 - 0.0| = 0.0°
         - conclusion: Using length dimension for directional constraint
     2. reason: Calculate size constraint for 'in front' relation
         - calculation:
-            - rug_1 size: 3.0 (length)
-            - Cluster size (in front): max(0.0, 3.0) = 3.0
-        - conclusion: leather_sofa_1 cluster size (in front): 3.0
-    3. reason: Calculate possible positions based on 'north_wall' constraint
+            - coffee_table_1 size: 1.2 (length)
+            - Cluster size (in front): max(0.0, 1.2) = 1.2
+        - conclusion: leather_sofa_1 cluster size (in front): 1.2
+    3. reason: Calculate possible positions based on 'south_wall' constraint
         - calculation:
             - leather_sofa_1 size: length=3.0, width=1.0, height=1.0
             - Room size: 5.0x5.0x3.0
             - x_min = 2.5 - 5.0/2 + 3.0/2 = 1.5
             - x_max = 2.5 + 5.0/2 - 3.0/2 = 3.5
-            - y_min = 5.0 - 1.0/2 = 4.5
-            - y_max = 5.0 - 1.0/2 = 4.5
-            - z_min = z_max = 1.0/2 = 0.5
-        - conclusion: Possible position: (1.5, 3.5, 4.5, 4.5, 0.5, 0.5)
+            - y_min = y_max = 0.5
+            - z_min = z_max = 0.5
+        - conclusion: Possible position: (1.5, 3.5, 0.5, 0.5, 0.5, 0.5)
     4. reason: Adjust boundaries for valid placement
         - calculation:
-            - Adjusted cluster constraint: x(1.5-3.5), y(4.5-4.5)
-            - Final coordinates: x=2.438, y=4.5, z=0.5
-        - conclusion: Final position: x: 2.438, y: 4.5, z: 0.5
-    5. reason: Collision check with other objects
+            - Adjusted cluster constraint: x(1.5-3.5), y(0.5-0.5)
+            - Final coordinates: x=3.3193, y=0.5, z=0.5
+        - conclusion: Final position: x: 3.3193, y: 0.5, z: 0.5
+    5. reason: Collision check with coffee_table_1
         - calculation:
-            - No collision detected with other objects
+            - Overlap detection: 1.5 ≤ 3.3193 ≤ 3.5 → No collision
         - conclusion: No collision detected
     6. reason: Final position calculation
         - calculation:
-            - Final coordinates: x=2.438, y=4.5, z=0.5
-        - conclusion: Final position: x: 2.438, y: 4.5, z: 0.5
+            - Selected position within overlap: x=3.3193, y=0.5, z=0.5
+        - conclusion: Final position: x: 3.3193, y: 0.5, z: 0.5
 
 For coffee_table_1
 - parent object: leather_sofa_1
 - calculation_steps:
-    1. reason: Calculate rotation difference with rug_1
+    1. reason: Calculate rotation difference with leather_sofa_1
         - calculation:
             - Rotation of coffee_table_1: 0.0°
-            - Rotation of rug_1: 180.0°
-            - Rotation difference: |0.0 - 180.0| = 180.0°
+            - Rotation of leather_sofa_1: 0.0°
+            - Rotation difference: |0.0 - 0.0| = 0.0°
         - conclusion: Using length dimension for directional constraint
     2. reason: Calculate size constraint for 'in front' relation
         - calculation:
-            - rug_1 size: 3.0 (length)
+            - leather_sofa_1 size: 3.0 (length)
             - Cluster size (in front): max(0.0, 3.0) = 3.0
         - conclusion: coffee_table_1 cluster size (in front): 3.0
     3. reason: Calculate possible positions based on 'middle of the room' constraint
         - calculation:
-            - coffee_table_1 size: length=1.5, width=1.0, height=0.5
+            - coffee_table_1 size: length=1.2, width=0.8, height=0.5
             - Room size: 5.0x5.0x3.0
-            - x_min = 2.5 - 5.0/2 + 1.5/2 = 0.75
-            - x_max = 2.5 + 5.0/2 - 1.5/2 = 4.25
-            - y_min = 2.5 - 5.0/2 + 1.0/2 = 0.5
-            - y_max = 2.5 + 5.0/2 - 1.0/2 = 4.5
-            - z_min = z_max = 0.5/2 = 0.25
-        - conclusion: Possible position: (0.75, 4.25, 0.5, 4.5, 0.25, 0.25)
+            - x_min = 2.5 - 5.0/2 + 1.2/2 = 0.6
+            - x_max = 2.5 + 5.0/2 - 1.2/2 = 4.4
+            - y_min = 2.5 - 5.0/2 + 0.8/2 = 0.4
+            - y_max = 2.5 + 5.0/2 - 0.8/2 = 4.6
+            - z_min = z_max = 0.25
+        - conclusion: Possible position: (0.6, 4.4, 0.4, 4.6, 0.25, 0.25)
     4. reason: Adjust boundaries for valid placement
         - calculation:
-            - Adjusted cluster constraint: x(0.75-4.25), y(0.5-4.5)
-            - Final coordinates: x=2.867, y=2.258, z=0.25
-        - conclusion: Final position: x: 2.867, y: 2.258, z: 0.25
+            - Adjusted cluster constraint: x(0.6-4.4), y(0.4-4.6)
+            - Final coordinates: x=2.7886, y=4.1455, z=0.25
+        - conclusion: Final position: x: 2.7886, y: 4.1455, z: 0.25
     5. reason: Collision check with leather_sofa_1
         - calculation:
-            - No collision detected with leather_sofa_1
+            - Overlap detection: 0.6 ≤ 2.7886 ≤ 4.4 → No collision
         - conclusion: No collision detected
     6. reason: Final position calculation
         - calculation:
-            - Final coordinates: x=2.867, y=2.258, z=0.25
-        - conclusion: Final position: x: 2.867, y: 2.258, z: 0.25
-
-For rug_1
-- parent object: coffee_table_1
-- calculation_steps:
-    1. reason: Calculate size constraint for 'under' relation
-        - calculation:
-            - rug_1 size: 3.0x2.0x0.01
-            - Cluster size (under): 0.0 (non-directional)
-        - conclusion: No directional constraint applied
-    2. reason: Calculate possible positions based on 'middle of the room' constraint
-        - calculation:
-            - x_min = x_max = 2.5
-            - y_min = y_max = 2.5
-            - z_min = z_max = 0.005
-        - conclusion: Possible position: (2.5, 2.5, 2.5, 2.5, 0.005, 0.005)
-    3. reason: Adjust for 'under coffee_table_1' constraint
-        - calculation:
-            - x_min = max(2.5, 2.867 - 1.5/2 - 3.0/2) = 2.5
-            - y_min = max(2.5, 2.258 - 1.0/2 - 2.0/2) = 2.5
-        - conclusion: Final position: x: 2.5, y: 2.5, z: 0.005
-    4. reason: Collision check with coffee_table_1
-        - calculation:
-            - No collision detected with coffee_table_1
-        - conclusion: No collision detected
-    5. reason: Final position calculation
-        - calculation:
-            - Final coordinates: x=2.5, y=2.5, z=0.005
-        - conclusion: Final position: x: 2.5, y: 2.5, z: 0.005
-
-For floor_lamp_1
-- parent object: leather_sofa_1
-- calculation_steps:
-    1. reason: Calculate rotation difference with leather_sofa_1
-        - calculation:
-            - Rotation of floor_lamp_1: 0.0°
-            - Rotation of leather_sofa_1: 180.0°
-            - Rotation difference: |0.0 - 180.0| = 180.0°
-        - conclusion: Using length dimension for directional constraint
-    2. reason: Calculate size constraint for 'right of' relation
-        - calculation:
-            - leather_sofa_1 size: 3.0 (length)
-            - Cluster size (right of): max(0.0, 1.8) = 1.8
-        - conclusion: floor_lamp_1 cluster size (right of): 1.8
-    3. reason: Calculate possible positions based on 'middle of the room' constraint
-        - calculation:
-            - floor_lamp_1 size: length=0.6, width=0.6, height=1.8
-            - Room size: 5.0x5.0x3.0
-            - x_min = 2.5 - 5.0/2 + 0.6/2 = 0.3
-            - x_max = 2.5 + 5.0/2 - 0.6/2 = 4.7
-            - y_min = 2.5 - 5.0/2 + 0.6/2 = 0.3
-            - y_max = 2.5 + 5.0/2 - 0.6/2 = 4.7
-            - z_min = z_max = 1.8/2 = 0.9
-        - conclusion: Possible position: (0.3, 4.7, 0.3, 4.7, 0.9, 0.9)
-    4. reason: Adjust boundaries for valid placement
-        - calculation:
-            - Adjusted cluster constraint: x(0.3-4.7), y(0.3-4.7)
-            - Final coordinates: x=4.138, y=4.641, z=0.9
-        - conclusion: Final position: x: 4.138, y: 4.641, z: 0.9
-    5. reason: Collision check with leather_sofa_1
-        - calculation:
-            - No collision detected with leather_sofa_1
-        - conclusion: No collision detected
-    6. reason: Final position calculation
-        - calculation:
-            - Final coordinates: x=4.138, y=4.641, z=0.9
-        - conclusion: Final position: x: 4.138, y: 4.641, z: 0.9
+            - Selected position within overlap: x=2.7886, y=4.1455, z=0.25
+        - conclusion: Final position: x: 2.7886, y: 4.1455, z: 0.25
 
 For metal_shelf_1
 - calculation_steps:
-    1. reason: Calculate rotation difference with other objects
+    1. reason: Calculate rotation difference with east_wall
         - calculation:
-            - No rotation difference needed as no child objects
-        - conclusion: No rotation difference calculation required
-    2. reason: Calculate size constraint for 'east_wall' relation
+            - Rotation of metal_shelf_1: 90°
+            - Rotation of east_wall: 90°
+            - Rotation difference: |90 - 90| = 0°
+        - conclusion: Using width dimension for directional constraint
+    2. reason: Calculate size constraint for 'against' relation
         - calculation:
-            - metal_shelf_1 size: 2.0x0.5x2.0
-            - Cluster size (east_wall): 0.0 (non-directional)
-        - conclusion: No directional constraint applied
+            - east_wall size: 5.0 (length)
+            - Cluster size (against): max(0.0, 5.0) = 5.0
+        - conclusion: metal_shelf_1 cluster size (against): 5.0
     3. reason: Calculate possible positions based on 'east_wall' constraint
         - calculation:
-            - metal_shelf_1 size: length=2.0, width=0.5, height=2.0
+            - metal_shelf_1 size: length=1.5, width=0.4, height=2.0
             - Room size: 5.0x5.0x3.0
-            - x_min = 5.0 - 0.5/2 = 4.75
-            - x_max = 5.0 - 0.5/2 = 4.75
-            - y_min = 2.5 - 5.0/2 + 2.0/2 = 1.0
-            - y_max = 2.5 + 5.0/2 - 2.0/2 = 4.0
-            - z_min = z_max = 2.0/2 = 1.0
-        - conclusion: Possible position: (4.75, 4.75, 1.0, 4.0, 1.0, 1.0)
+            - x_min = 5.0 - 0.0/2 - 0.4/2 = 4.8
+            - x_max = 5.0 - 0.0/2 - 0.4/2 = 4.8
+            - y_min = 2.5 - 5.0/2 + 1.5/2 = 0.75
+            - y_max = 2.5 + 5.0/2 - 1.5/2 = 4.25
+            - z_min = z_max = 1.0
+        - conclusion: Possible position: (4.8, 4.8, 0.75, 4.25, 1.0, 1.0)
     4. reason: Adjust boundaries for valid placement
         - calculation:
-            - Adjusted cluster constraint: x(4.75-4.75), y(1.0-4.0)
-            - Final coordinates: x=4.75, y=1.951, z=1.0
-        - conclusion: Final position: x: 4.75, y: 1.951, z: 1.0
+            - Adjusted cluster constraint: x(4.8-4.8), y(0.75-4.25)
+            - Final coordinates: x=4.8, y=1.9771, z=1.0
+        - conclusion: Final position: x: 4.8, y: 1.9771, z: 1.0
     5. reason: Collision check with other objects
         - calculation:
-            - No collision detected with other objects
+            - No other objects in proximity
         - conclusion: No collision detected
     6. reason: Final position calculation
         - calculation:
-            - Final coordinates: x=4.75, y=1.951, z=1.0
-        - conclusion: Final position: x: 4.75, y: 1.951, z: 1.0
+            - Selected position within overlap: x=4.8, y=1.9771, z=1.0
+        - conclusion: Final position: x: 4.8, y: 1.9771, z: 1.0
+
+For pendant_light_1
+- calculation_steps:
+    1. reason: Calculate rotation difference with ceiling
+        - calculation:
+            - Rotation of pendant_light_1: 0.0°
+            - Rotation of ceiling: 0.0°
+            - Rotation difference: |0.0 - 0.0| = 0.0°
+        - conclusion: Using length dimension for directional constraint
+    2. reason: Calculate size constraint for 'on' relation
+        - calculation:
+            - ceiling size: 3.0 (height)
+            - Cluster size (on): max(0.0, 3.0) = 3.0
+        - conclusion: pendant_light_1 cluster size (on): 3.0
+    3. reason: Calculate possible positions based on 'ceiling' constraint
+        - calculation:
+            - pendant_light_1 size: length=0.5, width=0.5, height=1.0
+            - Room size: 5.0x5.0x3.0
+            - x_min = 2.5 - 5.0/2 + 0.5/2 = 0.25
+            - x_max = 2.5 + 5.0/2 - 0.5/2 = 4.75
+            - y_min = 2.5 - 5.0/2 + 0.5/2 = 0.25
+            - y_max = 2.5 + 5.0/2 - 0.5/2 = 4.75
+            - z_min = z_max = 2.5
+        - conclusion: Possible position: (0.25, 4.75, 0.25, 4.75, 2.5, 2.5)
+    4. reason: Adjust boundaries for valid placement
+        - calculation:
+            - Adjusted cluster constraint: x(0.25-4.75), y(0.25-4.75)
+            - Final coordinates: x=3.9976, y=4.0324, z=2.5
+        - conclusion: Final position: x: 3.9976, y: 4.0324, z: 2.5
+    5. reason: Collision check with other objects
+        - calculation:
+            - No other objects in proximity
+        - conclusion: No collision detected
+    6. reason: Final position calculation
+        - calculation:
+            - Selected position within overlap: x=3.9976, y=4.0324, z=2.5
+        - conclusion: Final position: x: 3.9976, y: 4.0324, z: 2.5
 
 For wall_art_1
 - calculation_steps:
-    1. reason: Calculate rotation difference with other objects
+    1. reason: Calculate rotation difference with west_wall
         - calculation:
-            - No rotation difference needed as no child objects
-        - conclusion: No rotation difference calculation required
-    2. reason: Calculate size constraint for 'west_wall' relation
+            - Rotation of wall_art_1: 90°
+            - Rotation of west_wall: 90°
+            - Rotation difference: |90 - 90| = 0°
+        - conclusion: Using width dimension for directional constraint
+    2. reason: Calculate size constraint for 'against' relation
         - calculation:
-            - wall_art_1 size: 1.0x0.05x1.5
-            - Cluster size (west_wall): 0.0 (non-directional)
-        - conclusion: No directional constraint applied
+            - west_wall size: 5.0 (length)
+            - Cluster size (against): max(0.0, 5.0) = 5.0
+        - conclusion: wall_art_1 cluster size (against): 5.0
     3. reason: Calculate possible positions based on 'west_wall' constraint
         - calculation:
-            - wall_art_1 size: length=1.0, width=0.05, height=1.5
+            - wall_art_1 size: length=1.0, width=0.1, height=1.0
             - Room size: 5.0x5.0x3.0
-            - x_min = 0 + 0.05/2 = 0.025
-            - x_max = 0 + 0.05/2 = 0.025
+            - x_min = 0 + 0.0/2 + 0.1/2 = 0.05
+            - x_max = 0 + 0.0/2 + 0.1/2 = 0.05
             - y_min = 2.5 - 5.0/2 + 1.0/2 = 0.5
             - y_max = 2.5 + 5.0/2 - 1.0/2 = 4.5
-            - z_min = 1.5 - 3.0/2 + 1.5/2 = 0.75
-            - z_max = 1.5 + 3.0/2 - 1.5/2 = 2.25
-        - conclusion: Possible position: (0.025, 0.025, 0.5, 4.5, 0.75, 2.25)
+            - z_min = 1.5 - 3.0/2 + 1.0/2 = 0.5
+            - z_max = 1.5 + 3.0/2 - 1.0/2 = 2.5
+        - conclusion: Possible position: (0.05, 0.05, 0.5, 4.5, 0.5, 2.5)
     4. reason: Adjust boundaries for valid placement
         - calculation:
-            - Adjusted cluster constraint: x(0.025-0.025), y(0.5-4.5)
-            - Final coordinates: x=0.025, y=3.835, z=1.771
-        - conclusion: Final position: x: 0.025, y: 3.835, z: 1.771
+            - Adjusted cluster constraint: x(0.05-0.05), y(0.5-4.5)
+            - Final coordinates: x=0.05, y=2.8687, z=0.8398
+        - conclusion: Final position: x: 0.05, y: 2.8687, z: 0.8398
     5. reason: Collision check with other objects
         - calculation:
-            - No collision detected with other objects
+            - No other objects in proximity
         - conclusion: No collision detected
     6. reason: Final position calculation
         - calculation:
-            - Final coordinates: x=0.025, y=3.835, z=1.771
-        - conclusion: Final position: x: 0.025, y: 3.835, z: 1.771
+            - Selected position within overlap: x=0.05, y=2.8687, z=0.8398
+        - conclusion: Final position: x: 0.05, y: 2.8687, z: 0.8398
